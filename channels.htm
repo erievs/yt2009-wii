@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html lang="en">
+<head>
+	<title>YouTube - Broadcast Yourself.</title>
+	<link rel="stylesheet" href="/www-core-vfl122413.css">
+	<link rel="stylesheet" href="/assets/site-assets/www-the-rest-vfl120680.css">
+	<link rel="stylesheet" href="/assets/site-assets/www-browse-vfl130085.css">
+	<link rel="stylesheet" href="/assets/site-assets/search-suggestions.css">
+	<style>
+		#body-column, .main-tab-layout-top-browse-tabs {
+			width: 960px !important;
+		}
+	</style>
+</head>
+<body class="en_US is-english">
+	<div id="masthead-container">
+		<div id="masthead">
+			<a href="/">
+				<button id="logo" class="master-sprite" title=""></button>
+			</a>
+			<div id="masthead-search">
+				<form autocomplete="off" class="search-form" action="/results" method="get" name="searchForm">
+					<input id="masthead-search-term" class="search-term" name="search_query" type="text" tabindex="1" value="" maxlength="128">
+					<input id="search-type-masthead" name="search_type" type="hidden" value="">
+					<a class="yt-button yt-button-primary" id="" style="" href="#"><span>lang_search</span></a>
+				</form>
+			</div>
+			<div id="masthead-utility">
+				<!--yt2009_login_insert-->
+			</div>
+			<div id="masthead-nav-user">
+				<a href="/watch_queue" id="quicklist-nav" style="background-color: rgb(255, 255, 255);" class="hid">lang_quicklist (<span id="quicklist-nav-count">?</span>)</a>
+				<a href="/my_subscriptions?masthead=1">lang_subs_btn</a>
+				<a href="/my_history">lang_history_btn</a>
+				<a class="yt-button yt-button-urgent yt-button-short" id="" class href="/my_videos_upload"><span>lang_upload_btn</span></a>
+			</div>
+			<div id="masthead-nav-main">
+				<a href="/">lang_home</a>
+				<a href="/videos">lang_videos</a>
+				<a href="/channels">lang_channels</a>
+			</div>
+			<div id="masthead-end"></div>
+		</div>
+	</div>
+	<form name="logoutForm" method="post" target="_top" action="/index">
+		<input type="hidden" name="action_logout" value="1">
+	</form>
+	<div id="baseDiv" class="date-20090922 video-info  ">
+		<!--
+			nie ma tego zbytnio jak zaimplementować bo kategorii kanałów już nie ma, ale jak to czytasz i masz jakiś pomysł co do tego to napisz :D
+
+			<div id="side-column">
+			<div class="browse-side-column">
+				<ul class="browse-categories-side yt-rounded">
+					<li class="category-selected browse-category-top-level first yt-rounded"><a class="hLink" href="/members">Categories</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=2">Autos &amp; Vehicles</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=23">Comedy</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=27">Education</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=24">Entertainment</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=1">Film &amp; Animation</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=20">Gaming</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=26">Howto &amp; Style</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=10">Music</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=25">News &amp; Politics</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=29">Nonprofits &amp; Activism</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=22">People &amp; Blogs</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=15">Pets &amp; Animals</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=28">Science &amp; Technology</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=17">Sports</a></li>
+					<li class="main-tabs-subcategory "><a href="?s=mv&amp;t=m&amp;g=0&amp;c=19">Travel &amp; Events</a></li>
+					<li class=""><a class="hLink" href="?s=mv&amp;t=m&amp;g=2">Comedians</a></li>
+					<li class=""><a class="hLink" href="?s=mv&amp;t=m&amp;g=3">Directors</a></li>
+					<li class=""><a class="hLink" href="?s=mv&amp;t=m&amp;g=4">Gurus</a></li>
+					<li class=""><a class="hLink" href="?s=mv&amp;t=m&amp;g=1">Musicians</a></li>
+					<li class=""><a class="hLink" href="?s=mv&amp;t=a&amp;g=7">Non-Profit</a></li>
+					<li class=""><a class="hLink" href="?s=mv&amp;t=m&amp;g=5">Partners</a></li>
+					<li class=""><a class="hLink" href="?s=mv&amp;t=a&amp;g=8">Politicians</a></li>
+					<li class=""><a class="hLink" href="?s=mv&amp;t=m&amp;g=9">Reporters</a></li>
+					<li class=""><a class="hLink" href="?s=mv&amp;t=m&amp;g=6">Sponsors</a></li>
+					<li class="browse-category-top-level"><a class="hLink" href="/shows">Shows</a></li>
+					<li class="browse-category-top-level">Movies</a></li>
+					<li><a class="hlink">Trailers</a></li>
+					<li class="browse-category-top-level"><a class="hLink" href="/contests_main">Contests</a></li>
+					<li class="browse-category-top-level"><a class="hLink" href="/events_main">Events</a></li>
+				</ul>
+				<div class="main-tabs-promo">
+					<div id="ad_creative_2" class="ad-div " style="z-index: 1">
+						<iframe id="ad_creative_iframe_2" height="90" width="120" scrolling="no" frameborder="0" style="z-index: 1" id="promo2"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<div id="body-column">
+			<div class="main-tab-layout-top-browse-tabs">
+				<div class="browse-tab-modifiers yt-rounded">
+					<div class="subcategory first yt-rounded"><a href="/videos">lang_videos</a></div>
+					<div class="subcategory selected">lang_channels</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<table class="browse-modifiers-extended" width="100%">
+				<tr>
+					<td class="browse-modifiers-extended-category" width="20%">
+						<span class="browse-modifiers-extended-category-lbl">lang_in_cat</span> All Channels
+					</td>
+					<!--<td class="browse-basic-modifiers" width="60%">
+						<div class="subcategory first yt-rounded selected">
+							<span>Most Subscribed</span>
+						</div>
+						<div class="clear"></div>
+					</td>-->
+					<td class="time-slice-modifiers" width="20%"></td>
+				</tr>
+			</table>
+			<div id="browseMain">
+				<div id="video_grid" class="grid-view">
+					<div style="padding-bottom: 5px;">
+					</div>
+					<!--yt2009_channels_insert-->
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<!-- begin footer section -->
+		<div class="clear"></div>
+		<div id="footer">
+			<div class="search">
+				<form autocomplete="off" class="search-form" action="/results" method="get" name="footer-search-form">
+					<input id="footer-search-term" class="search-term" name="search_query" type="text" value="" maxlength="128">
+					<input id="search-type-footer" name="search_type" type="hidden" value="">
+					<a class="yt-button yt-button-primary" id="" style="" href="#" onclick="document['footer-search-form'].submit();"><span>lang_search</span></a>
+				</form>
+			</div>
+			<div class="links">
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<th>lang_footer_yt</th>
+						<th>lang_footer_programs</th>
+						<th>lang_footer_help</th>
+						<th>lang_footer_policy</th>
+						<th>lang_footer_discover</th>
+					</tr>
+					<tr>
+						<td><a href="/t/contact_us">lang_footer_contact</a></td>
+						<td><a href="/t/advertising">lang_footer_advertising</a></td>
+						<td><strong><a href="http://www.google.com/support/youtube/bin/static.py?page=start.cs&amp;hl=en-US">lang_footer_ghelp</a></strong></td>
+						<td><a href="/t/privacy">lang_footer_privacy</a></td>
+						<td><a href="/mobile">lang_footer_mobile</a></td>
+					</tr>
+					<tr>
+						<td><a href="http://www.googlestore.com/youtube">lang_footer_store</a></td>
+						<td><a href="http://code.google.com/apis/youtube/overview.html">lang_footer_dev</a></td>
+						<td><a href="/t/yt_handbook_home">lang_footer_handbook</a></td>
+						<td><a href="/t/terms">lang_footer_tos</a></td>
+						<td><a href="/youtubeonyoursite">lang_footer_site</a></td>
+					</tr>
+					<tr>
+						<td><a href="/press_room">lang_footer_press</a></td>
+						<td><a href="/partners">lang_footer_partner</a></td>
+						<td><a href="http://www.google.com/support/forum/p/youtube?hl=en">lang_footer_community</a></td>
+						<td><a href="/t/dmca_policy">lang_footer_dmca</a></td>
+						<td><a href="/youtubeonyourtv">lang_footer_tv</a></td>
+					</tr>
+					<tr>
+						<td><a href="http://ytbizblog.blogspot.com/">lang_footer_business</a></td>
+						<td><a href="/t/content_management">lang_footer_cm</a></td>
+						<td><a href="http://www.google.com/support/youtube/bin/request.py?contact_type=abuse&amp;hl=en-US">lang_footer_safety</a></td>
+						<td><a href="/t/community_guidelines">lang_footer_guidelines</a></td>
+						<td><a href="/t/rss_feeds">lang_footer_rss</a></td>
+					</tr>
+					<tr>
+						<td><a href="/blog">lang_footer_blog</a></td>
+						<td></td>
+						<td><a href="/t/creators_corner">lang_footer_corner</a></td>
+						<td></td>
+						<td><a href="/testtube">lang_footer_test</a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="region-and-language-pickers">
+				<div class="google-home">
+					<a href="http://www.google.com/webmasters/igoogle/youtube.html">lang_footer_igoogle</a>
+				</div>
+				<div class="region-picker-box">
+					<span class="region-label">lang_footer_location</span>
+					<strong class="region-title">lang_footer_worldwide</strong>
+					<a href="#" onclick="yt.www.masthead.loadPicker('region-picker'); return false;">lang_footer_showloc</a>
+					<div id="region-picker-container">
+						<div id="region-picker-loading" style="display: none">Loading...</div>
+					</div>
+				</div>
+				<div class="language-picker-box">
+					<span class="language-label">lang_footer_language</span>
+					<strong class="language-title">lang_footer_langname</strong>
+					<a href="#" onclick="yt.www.masthead.loadPicker('language-picker'); return false;">lang_footer_showlang</a>
+					<div id="language-picker-container">
+						<div id="language-picker-loading" style="display: none">Loading...</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+			lang_footer_copyright
+		</div>
+		<!-- end footer section -->
+	</div> <!-- end baseDiv -->
+	<a name="pageBottom"></a>
+	<script src="/assets/site-assets/yt2009langpicker.js"></script>
+	<script src="/assets/site-assets/search-suggestions.js"></script>
+</body>
+</html>

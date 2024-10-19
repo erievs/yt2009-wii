@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="textbox">
+    <button onclick="submit();">zapisz</button>
+
+    <script>
+        function submit() {
+            document.cookie = "auth=" + document.getElementById("textbox").value + "; Path=/; expires=Fri, 31 Dec 2066 23:59:59 GMT";
+            if(document.cookie.indexOf("global_flags") == -1) {
+                // default set no_controls_fade
+                document.cookie = "watch_flags= ; Path=/; expires=Fri, 31 Dec 2066 23:59:59 GMT"
+                document.cookie = "global_flags=no_controls_fade:; Path=/; expires=Fri, 31 Dec 2066 23:59:59 GMT"
+            }
+            var redirect = "/"
+            try {
+                if(location.href.indexOf("blzr") !== -1) {
+                    redirect = "/mobile/blzr/"
+                } else if(location.href.indexOf("rtsp") !== -1) {
+                    redirect = "/mobile/"
+                }
+            }
+            catch(error) {}
+            location.href = redirect
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,638 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>
+		yt2009_flags
+	</title>
+
+	<link id="www-core-css" rel="stylesheet" href="www-core-vfl122413.css">
+
+	<style>
+		#export-menu {
+			border: 1px black solid;
+			padding: 10px 10px;
+		}
+		#export-menu textarea {
+			resize: none;
+			width: 600px;
+			height: 170px;
+			outline: none;
+		}
+		#i_export, #i_import,
+		#imported-flags-container, #exported-flags-container,
+		#exported-session-container, #exported-data-container,
+		#imported-data-container {
+			margin-top: 10px;
+			overflow: hidden;
+		}
+	</style>
+</head>
+
+<body class="date-20091111 en_US is-english">
+	<!-- begin masthead section -->
+	<div id="page" class="">
+	</div>
+	<div id="masthead-container">
+		<div id="masthead" class="">
+			<div id="masthead-utility" style="visibility: hidden;cursor: default;">
+				<span class="utility-item">
+					<a href="#"><strong>Create Account</strong></a>
+					<span class="utility-joiner">or</span>
+					<a href="#">Sign In</a>
+				</span>
+			</div>
+			<div id="masthead-nav-user">
+				<a href="/watch_queue?all" id="quicklist-nav" style="display: none;">QuickList (<span id="quicklist-nav-count">0</span>)</a>
+				<a href="/my_subscriptions?masthead=1">Subscriptions</a>
+				<a href="/my_history">History</a>
+				<a class="yt-button yt-button-urgent yt-button-short" id="" href="/my_videos_upload"><span>Upload</span></a>
+			</div>
+			<div id="masthead-end"></div>
+
+		</div>
+	</div>
+	<!-- end masthead section -->
+	<div id="baseDiv" class="date-20091111 video-info ">
+		<!-- begin top section -->
+		<div class="languages">
+			<input id="lang-pl" type="radio" onclick="location.reload();" name="langs-radio" checked>
+			<label for="lang-pl">pl</label>
+			<input id="lang-en" type="radio" onclick="setEnglish();" name="langs-radio">
+			<label for="lang-en">en</label>
+		</div>
+
+		<h4 id="i_header">flagi do yt2009<br>każda z tych flag zmienia w pewien sposób funkcjonalność. najedź na checkbox aby zobaczyć co.<br>ta funkcja wymaga włączonych cookies. jak nie działa to najpierw to sprawdź.<br><br>jeśli chcesz użyć flagi tylko raz, dodaj parametr flags w url'u.</h4>
+
+		<a href="javascript:toggleExportMenu();">EXPORT MENU &raquo;</a>
+		<div class="hid" id="export-menu">
+			<p>YT2009 EXPORT SETTINGS<br>
+			use this window to move stuff across instances and/or preparing login_simulate for mobile.</p>
+			<p>move desktop settings across instances:</p>
+			<a class="yt-button yt-button-primary" href="#" onclick="flags_export();"><span id="i_export">export flags</span></a><br>
+			<div id="exported-flags-container" class="hid" style="height: 0px;">
+				<p>copy the code below. and use it in the "import" section below when needed.</p>
+				<textarea readonly id="exported-flags" spellcheck="false"></textarea>
+			</div><br>
+			<a class="yt-button yt-button-primary" href="#" onclick="flags_import_open();"><span id="i_import">import flags</span></a><br>
+			<div id="imported-flags-container" class="hid" style="height: 0px;">
+				<p>paste exported flags code below and click "import" to apply. <b>will overwrite your current flags settings.</b></p>
+				<textarea id="imported-flags" spellcheck="false"></textarea><br>
+				<a class="yt-button yt-button-primary" href="#" onclick="add_flags();"><span id="i_import">import</span></a>
+			</div><br>
+			<a class="yt-button yt-button-primary" href="#" onclick="session_import();"><span id="i_import">import session</span></a><br>
+			<div id="imported-session-container" class="hid" style="height: 0px;">
+				<textarea id="import-session-text" spellcheck="false" style="height: 40px"></textarea><br>
+				<a class="yt-button yt-button-primary" href="#" onclick="import_session_do();"><span id="i_import">import</span></a>
+			</div><br>
+			<a class="yt-button yt-button-primary" href="#" onclick="data_export();"><span id="i_export">export all data</span></a><br>
+			<div id="exported-data-container" class="hid" style="height: 0px;">
+				<p>copy the export code listed below and paste it where needed.<br>
+				valid <b>only for the same yt2009 instance</b>, for 15 minutes or until claimed.</p>
+				<textarea id="export-data-text" readonly spellcheck="false" style="height: 40px"></textarea><br>
+			</div><br>
+			<a class="yt-button yt-button-primary" href="#" onclick="data_import();"><span id="i_import">import data</span></a><br>
+			<div id="imported-data-container" class="hid" style="height: 0px;">
+				<p>importing from a different setup <b>will overwrite your current data.</b></p>
+				<textarea id="import-data-text" spellcheck="false" style="height: 40px"></textarea><br>
+				<a class="yt-button yt-button-primary" href="#" onclick="data_import_do();"><span id="i_import">import</span></a>
+			</div>
+			<hr>
+			<p>bring login_simulate to the mobile app:</p>
+			<a class="yt-button yt-button-primary" href="#" onclick="session_export();"><span id="i_export">export session</span></a><br>
+			<div id="exported-session-container" class="hid" style="height: 0px;">
+				<p>copy the full session token or the 5-character shortened version of it.<br>
+				the shortened version will be valid for 15 minutes or until claimed.</p>
+				<textarea id="session-text" readonly spellcheck="false" style="height: 40px"></textarea><br>
+			</div>
+		</div>
+
+		<div class="group1">
+			<h2>/watch</h2>
+			<input type="checkbox" id="watch-annotation-gradients" title="dodaje wcześniej widoczne gradienty na adnotacjach w html5.">
+			<label for="watch-annotation-gradients">annotation_gradients</label><br>
+			<i id="leg_annot_notice">annotation_gradients nie jest celnym odwzorowaniem adnotacji z flash.<br>zostało dodane ze względu na poprzednią implementację adnotacji w html5.</i><br>
+			<input type="checkbox" id="watch-comments-remove-future" title="pokazuje stare komentarze na filmach">
+			<label for="watch-comments-remove-future">comments_remove_future</label><br>
+			<input type="checkbox" id="watch-default-avatar" title="domyślny awatar z 2009 zamiast awatara twórcy">
+			<label for="watch-default-avatar">default_avatar</label>
+			<input type="text" id="watch-default-avatar-input" autocomplete="off" spellcheck="false" placeholder="tryb">
+			<a id="watch-avatar-expander" href="javascript:toggleExpander('watch-default-avatar-expander')">(możliwe wartości)</a><br>
+			<p id="watch-default-avatar-expander" class="hid">tryby default_avatar:<br>
+			- adapt - ustawia domyślny awatar tylko jak obecny jest domyślny<br>
+			- always - zawsze ustawia domyślny awatar.<br>
+			(zostawienie pustego pola/inna wartość oznaczy always)</p>
+			<input type="checkbox" id="watch-distill-description" title="&quot;destyluje&quot; opisy filmów z oznak nowych opisów trzymając resztę zawartości">
+			<label for="watch-distill-description">distill_description</label>
+			<input type="text" id="watch-distill-description-input" autocomplete="off" spellcheck="false" placeholder="tryb">
+			<a id="watch-distill-expander" href="javascript:toggleExpander('watch-distill-description-expander')">(możliwe wartości)</a><br>
+			<p id="watch-distill-description-expander" class="hid">tryby distill_description:<br>
+			- poor - usuwa emoji i hashtagi<br>
+			- moderate - wszystko co poor + niektóre słowa<br>
+			- max - usuwa całe linijki tekstu których zawartość pasuje do moderate<br>
+			(zostawienie pola pustego/inna wartość oznacza max)</p>
+			<input type="checkbox" id="watch-distill-tags" title="&quot;destyluje&quot; tagi filmów aby były bardziej celne">
+			<label for="watch-distill-tags">distill_tags</label><br>
+			<input type="checkbox" id="watch-enable-stats-countback" title="cofa liczniki dat w zakładce Statistics & Data dla starych filmów.">
+			<label for="watch-enable-stats-countback">enable_stats_countback</label><br>
+			<input type="checkbox" id="watch-exclude-cs" title="ukrywa twoje komentarze w /comment_search">
+			<label for="watch-exclude-cs">exclude_cs</label><br>
+			<input type="checkbox" id="watch-exp-related" title="pokazuje podobne filmy bazując na tagach oglądanego filmu">
+			<label for="watch-exp-related">exp_related</label><br>
+			<input type="checkbox" id="watch-fake-upload-date" title="fake rok wrzucenia filmu jako 2009">
+			<label for="watch-fake-upload-date">fake_upload_date</label>
+			<input type="text" id="watch-fake-upload-date-input" autocomplete="off" spellcheck="false" placeholder="tryb">
+			<a id="watch-upload-expander" href="javascript:toggleExpander('watch-fake-upload-date-expander')">(możliwe wartości)</a><br>
+			<p id="watch-fake-upload-date-expander" class="hid">tryby fake_upload_date:<br>
+			- adapt - ustawia datę wrzucenia z 2009 tylko jak film był opublikowany po kwietniu 2010<br>
+			- always - niezależnie od filmu ustawia datę z 2009<br>
+			(wszystko inne/zostawienie pola pustego oznaczy always)</p>
+			<input type="checkbox" id="watch-hd-1080" title="przycisk HD będzie ładować 1080p zamiast 720p.">
+			<label for="watch-hd-1080">hd_1080</label><br>
+			<input type="checkbox" id="watch-homepage-contribute" title="filmy obejrzane przez ciebie, wrzucone przed 2011 będą pokazywane na stronie głównej i na /videos">
+			<label for="watch-homepage-contribute">homepage_contribute</label><br>
+			<input type="checkbox" id="watch-old-banners" title="używa starych banerów kiedy możliwe bez używania wayback_features.">
+			<label for="watch-old-banners">old_banners</label><br>
+			<input type="checkbox" id="watch-realistic-view-count" title="bardziej realistyczna na 2009 liczba wyświetleń i ratingów">
+			<label for="watch-realistic-view-count">realistic_view_count</label><br>
+			<input type="checkbox" id="watch-remove-username-space" title="usuwa spacje z nazw użytkowników">
+			<label for="watch-remove-username-space">remove_username_space</label><br>
+			<input type="checkbox" id="watch-share-behavior" title="ustawia zachowanie stron na które można udostępniać filmy">
+			<label for="watch-share-behavior">share_behavior</label>
+			<input type="text" id="watch-share-behavior-input" autocomplete="off" spellcheck="false" placeholder="tryb">
+			<a id="watch-share-expander" href="javascript:toggleExpander('watch-share-behavior-expander')">(możliwe wartości)</a><br>
+			<p id="watch-share-behavior-expander" class="hid">tryby share_behavior:<br>
+			- only_remove - tylko usuwa niedziałające platformy<br>
+			- only_add - tylko dodaje nowe działające platformy<br>
+			- both - usuwa niedziałające &amp; dodaje nowe platformy</p>
+			<input type="checkbox" id="watch-turn-down-lights" title="pokazuje przycisk zgaszenia świateł który był na niektórych filmach w 2009.">
+			<label for="watch-turn-down-lights">turn_down_lights</label><br>
+			<input type="checkbox" id="watch-username-asciify" title="usuwa znaki specjalne z nazw użytkowników">
+			<label for="watch-username-asciify">username_asciify</label><br>
+			<input type="checkbox" id="watch-wayback-features" title="użyj zapisów z Wayback Machine na yt2009">
+			<label for="watch-wayback-features">wayback_features</label>
+			<input type="text" id="watch-wayback-features-input" autocomplete="off" spellcheck="false" placeholder="tryb">
+			<a id="watch-wayback-expander" href="javascript:toggleExpander('watch-wayback-features-expander')">(możliwe wartości)</a><br>
+			<p id="watch-wayback-features-expander" class="hid">używając wielu wartości oddzielaj je <code>+</code>, np. <code>related+metadata</code>. możesz tez użyć <code>all</code> aby użyć wszystkich na raz.<br>
+			- metadata - główne dane o filmie - tytuł, opis, tagi<br>
+			- author - nazwa, awatar autora<br>
+			- related - dodaje podobne filmy z zapisu, filtruje nieistniejące<br>
+			- comments - pokaże komentarze z tamtego czasu<br><b>wayback_features nie zadziała na filmach wrzuconych po 2013-01-01.</b></p>
+		</div>
+		<div class="group2">
+			<h2>/results</h2>
+			<input type="checkbox" id="results-author-old-names" title="jeśli kanały mają link /user/, używaj nazwy z niego zamiast obecnej">
+			<label for="results-author-old-names">author_old_names</label><br>
+			<input type="checkbox" id="results-only-old" title="pokazuje w wyszukiwarce tylko filmy wrzucone przed podanym zakresem dat (domyślnie 01.04.2010)">
+			<label for="results-only-old">only_old</label>
+			<input type="text" id="results-only-old-input" autocomplete="off" spellcheck="false" placeholder="sprawdź moż. wartości">
+			<a id="results-old-expander" href="javascript:toggleExpander('results-only-old-expander')">(możliwe wartości)</a><br>
+			<p id="results-only-old-expander" class="hid">składnie dla only_old (YYYY-MM-DD):<br>
+			- 1 data - np. <b>2010-04-01</b> - pokaże tylko filmy wrzucone przed datą<br>
+			- 2 daty - np. <b>2007-01-01 2010-04-01</b> - pokaże filmy wrzucone pomiędzy tymi datami<br>
+			- pozostawienie pola pustego - standardowe zachowanie - filmy wrzucone przed 2010-04-01.</p>
+			<input type="checkbox" id="results-realistic-view-count" title="bardziej realistyczna na 2009 liczba wyświetleń">
+			<label for="results-realistic-view-count">realistic_view_count</label><br>
+			<input type="checkbox" id="results-remove-username-space" title="usuwa spacje z nazw użytkowników">
+			<label for="results-remove-username-space">remove_username_space</label><br>
+			<input type="checkbox" id="results-username-asciify" title="usuwa znaki specjalne z nazw użytkowników">
+			<label for="results-username-asciify">username_asciify</label><br>
+		</div>
+
+		<div class="group3">
+			<h2>/channel, /user, /c</h2>
+			<input type="checkbox" id="channel-author-old-names" title="jeśli kanały mają link /user/, używaj nazwy z niego zamiast obecnej - twórca, friends+subscriptions, komentarze">
+			<label for="channel-author-old-names">author_old_names</label><br>
+			<input type="checkbox" id="channel-auto-user" title="próbuj przekierować na link /user/ jak znaleziony">
+			<label for="channel-auto-user">auto_user</label><br>
+			<input type="checkbox" id="channel-default-avatar" title="pokazuj domyślny awatar z 2009">
+			<label for="channel-default-avatar">default_avatar</label>
+			<input type="text" id="channel-default-avatar-input" autocomplete="off" spellcheck="false" placeholder="tryb">
+			<span id="default-avatar-notice">zobacz default_avatar na /watch dla możliwych wartości</span><br>
+			<input type="checkbox" id="channel-default-color" title="domyślne kolory tła (szare) zamiast brania ich z baneru">
+			<label for="channel-default-color">default_color</label><br>
+			<input type="checkbox" id="channel-index-contribute" title="kanały które odwiedzisz będą widoczne (anonimowo) dla wszystkich na /channels">
+			<label for="channel-index-contribute">index_contribute</label><br>
+			<input type="checkbox" id="channel-only-old" title="pokazuje na kanałach tylko filmy wrzucone w zakresie/przed datą (domyślnie 01.04.2010)">
+			<label for="channel-only-old">only_old</label>
+			<input type="text" id="channel-only-old-input" autocomplete="off" spellcheck="false" placeholder="sprawdź moż. wartości">
+			<span id="only-old-notice">zobacz only_old na /results dla możliwych wartości</span><br>
+			<input type="checkbox" id="channel-realistic-view-count" title="bardziej realistyczna na 2009 liczba wyświetleń na filmach">
+			<label for="channel-realistic-view-count">realistic_view_count</label><br>
+			<input type="checkbox" id="channel-remove-username-space" title="usuwa spacje z nazw użytkowników">
+			<label for="channel-remove-username-space">remove_username_space</label><br>
+			<input type="checkbox" id="channel-username-asciify" title="usuwa znaki specjalne z nazw użytkowników">
+			<label for="channel-username-asciify">username_asciify</label><br>
+			<input type="checkbox" id="channel-wayback-features" title="użyj zapisów z Wayback Machine na yt2009">
+			<label for="channel-wayback-features">wayback_features</label>
+			<input type="text" id="channel-wayback-features-input" autocomplete="off" spellcheck="false" placeholder="tryb">
+			<a id="channel-wayback-expander" href="javascript:toggleExpander('channel-wayback-features-expander')">(możliwe wartości)</a><br>
+			<p id="channel-wayback-features-expander" class="hid">używając wielu wartości oddzielaj je <code>+</code>, np. <code>fields+comments</code>. możesz tez użyć <code>all</code> aby użyć wszystkich na raz.<br>
+			- fields - jednolinijkowe pola z informacjami wypełniane głównie przez twórcę - np. link do strony, opis<br>
+			- basic - podstawowe dane kanału, np. awatar, kolory ustawione w tamtym czasie<br>
+			- sections - sekcje subscriptions i friends jak są<br>
+			- comments - komentarze kanału<br></p>
+		</div>
+
+		<div class="group3">
+			<h2>/, /videos, /channels, /my_subscriptions</h2>
+			<input type="checkbox" id="mainpage-disable-fallback" title="ukrywa ostrzeżenie o trybu fallback">
+			<label for="mainpage-disable-fallback">disable_fallback</label><br>
+			<i id="hpr_notice">homepage_recommended jest od teraz w sekcji Add/Remove Modules na stronie głównej.</i><br>
+			<input type="checkbox" id="mainpage-new-recommended" title="pokaże nowe filmy na sekcji polecanych.">
+			<label for="mainpage-new-recommended">new_recommended</label><br>
+			<input type="checkbox" id="mainpage-realistic-view-count" title="bardziej realistyczna na 2009 liczba wyświetleń">
+			<label for="mainpage-realistic-view-count">realistic_view_count</label><br>
+			<input type="checkbox" id="mainpage-remove-username-space" title="usuwa spacje z nazw użytkowników">
+			<label for="mainpage-remove-username-space">remove_username_space</label><br>
+			<input type="checkbox" id="mainpage-username-asciify" title="usuwa znaki specjalne z nazw użytkowników">
+			<label for="mainpage-username-asciify">username_asciify</label><br>
+		</div>
+
+		<div class="group4">
+			<h2>[global]</h2>
+			<h4 id="i_all_pages">te flagi działają na wszystkich podstronach które będą ich używać.</h4>
+			<input type="checkbox" id="global-always-annotations" title="automatycznie włącza adnotacje na filmach">
+			<label for="global-always-annotations">always_annotations</label><br>
+			<input type="checkbox" id="global-always-captions" title="automatycznie włącza napisy na filmach">
+			<label for="global-always-captions">always_captions</label><br>
+			<input type="checkbox" id="global-annotation-redirect" title="przekierowuje linki youtube.com w adnotacjach na yt2009">
+			<label for="global-annotation-redirect">annotation_redirect</label><br>
+			<input type="checkbox" id="global-author-old-avatar" title="używa starych awatarów jak są na serwerach yt.">
+			<label for="global-author-old-avatar">author_old_avatar</label><br>
+			<input type="checkbox" id="global-autogen-thumbnails" title="używanie automatycznie generowanych miniaturek">
+			<label for="global-autogen-thumbnails">autogen_thumbnails</label><br>
+			<input type="checkbox" id="global-fake-dates" title="podstawione daty komentarzy i opublikowania">
+			<label for="global-fake-dates">fake_dates</label><br>
+			<input type="checkbox" id="global-login-simulate" title="symuluje zalogowanego użytkownika">
+			<label for="global-login-simulate">login_simulate</label>
+			<input type="text" id="global-login-simulate-input" autocomplete="off" spellcheck="false" placeholder="nazwa" maxlength="20" onkeypress=""><br>
+			<input type="checkbox" id="global-new-suggestions" title="pokazuje nowe sugestie wyszukiwania">
+			<label for="global-new-suggestions">new_suggestions</label><br>
+			<input type="checkbox" id="global-no-controls-fade" title="wyłącza zanikanie kontrolek odtwarzacza">
+			<label for="global-no-controls-fade">no_controls_fade</label><br>
+			<input type="checkbox" id="global-shows-tab" title="pokazuje zakładkę Shows pod wyszukiwarką (nic nie robi, pod pokaz)">
+			<label for="global-shows-tab">shows_tab</label><br>
+			<input type="checkbox" id="global-thumbnail-proxy" title="miniaturki będą przechodzić przez yt2009, naprawiając je w sieciach które blokują youtube.">
+			<label for="global-thumbnail-proxy">thumbnail_proxy</label>
+		</div>
+		<a class="yt-button yt-button-primary" href="#" onclick="update_cookies();"><span id="i_save">zapisz</span></a>
+
+
+		<!-- end bottom section -->
+	</div>
+	<a name="pageBottom"></a>
+
+	<!--yt2009_f-->
+	<script src="/assets/site-assets/yt2009-flags-languages.js"></script>
+	<script>
+		// login_simulate
+
+		function updateDescriptions() {
+			// show flag descriptions on labels BECAUSE PEOPLE CAN'T HOVER
+			// OVER THE CHECKBOX.
+			var labels = document.getElementsByTagName("input")
+			for(var label in labels) {
+				label = labels[label]
+				if(label.id && label.getAttribute("type") == "checkbox") {
+					var target = document.getElementsByTagName("label")
+					for(var p in target) {
+						if(target[p]
+						&& target[p].tagName
+						&& target[p].getAttribute("for") == label.id) {
+							target = target[p]
+						}
+					}
+					var labelText = label.getAttribute("title")
+					target.setAttribute("title", labelText)
+				}
+			}
+		}
+		updateDescriptions()
+
+		var watch_flags = ""
+		var results_flags = ""
+		var channel_flags = ""
+		var mainpage_flags = ""
+		var global_flags = ""
+
+		function update_cookies() {
+			watch_flags = ""
+			results_flags = ""
+			channel_flags = ""
+			mainpage_flags = ""
+			global_flags = ""
+
+			var boxes = document.querySelectorAll("input[type='checkbox']");
+			for(var checkbox in boxes) {
+				try {
+					var add_to = boxes[checkbox].id.split("-")[0]
+					var checked = boxes[checkbox].checked
+					var flag_name = document.querySelector("label[for='" + boxes[checkbox].id + "']").innerHTML
+
+					// inputy 
+					var flag_input = ""
+					try {
+						flag_input = document.querySelector("#" + boxes[checkbox].id + "-input").value
+					}
+					catch(error) {}
+
+					// dodawanie do zmiennej nazwa_flags
+					if(checked) {
+						window[add_to + "_flags"] += flag_name + encodeURIComponent(flag_input) + ":"
+					}
+				}
+				catch(error) {}
+			}
+
+			document.cookie = "watch_flags=" + watch_flags + "; Path=/; expires=Fri, 31 Dec 2066 23:59:59 GMT"
+			document.cookie = "results_flags=" + results_flags + "; Path=/; expires=Fri, 31 Dec 2066 23:59:59 GMT"
+			document.cookie = "channel_flags=" + channel_flags + "; Path=/; expires=Fri, 31 Dec 2066 23:59:59 GMT"
+			document.cookie = "mainpage_flags=" + mainpage_flags + "; Path=/; expires=Fri, 31 Dec 2066 23:59:59 GMT"
+			document.cookie = "global_flags=" + global_flags + "; Path=/; expires=Fri, 31 Dec 2066 23:59:59 GMT"
+
+			alert("ok")
+		}
+
+
+		// zaznaczanie wcześniej zapisanych flag
+		document.cookie.split(";").forEach(function(cookie) {
+			var flag_category = cookie.trimLeft().split("=")[0].split("_")[0]
+			var cookieValue = cookie.split("=")[1]
+
+			cookieValue.split(":").forEach(function(flag) {
+				try {
+					// custom handling for flags with textboxes
+					if(!document.querySelector("#" + flag_category + "-" + decodeURIComponent(flag.split("_").join("-")))) {
+						// probably a flag with an input textbox
+						var flagPartialName = flag.split("_")
+						flagPartialName.pop();
+						flagPartialName = flagPartialName.join("-")
+						if(flag_category + "-" + flagPartialName == flag_category + "-") return;
+
+						// determine the flag element
+						var fullFlag = document.querySelector("[id*=\"" + flag_category + "-" + flagPartialName + "\"]")
+						fullFlag.checked = true;
+						var flag_name = document.querySelector("label[for=\"" + fullFlag.id + "\"]").innerHTML
+						var flag_value = flag.replace(flag_name, "")
+						document.querySelector("#" + fullFlag.id + "-input").value = decodeURIComponent(flag_value)
+					} 
+
+					// normal flags
+					document.querySelector("#" + flag_category + "-" + flag.split("_").join("-")).checked = true;
+				}
+				catch(error) {}
+			})
+		})
+
+
+		// expander pokazujący więcej informacji o fladze jak takie są
+		function toggleExpander(expanderName) {
+			var element = document.querySelector("#" + expanderName);
+
+			if(element.className == "hid") {
+				element.className = ""
+			} else {
+				element.className = "hid"
+			}
+		}
+	</script>
+	<script>
+		// export menu
+		var exportMenu = document.getElementById("export-menu")
+		function toggleExportMenu() {
+			if(exportMenu.className == "hid") {
+				exportMenu.className = ""
+			} else {
+				exportMenu.className = "hid"
+			}
+		}
+
+		// expand textbox
+		function funExpand(element, targetHeight) {
+			var height = 0;
+			var x = setInterval(function() {
+				height += 30
+				if(height > targetHeight / 2) {
+					height -= 10
+				}
+				if(height > targetHeight - 50) {
+					height -= 12
+				}
+				element.style.height = height + "px"
+				if(height >= targetHeight) {
+					clearInterval(x)
+				}
+			}, 33)
+		}
+
+		// export flags
+		function flags_export() {
+			var flags = ""
+			var cookies = document.cookie.split("; ")
+			for(var c in cookies) {
+				if(!cookies[c]) return;
+				c = cookies[c]
+				if(c.indexOf("watch_flags") == 0
+				|| c.indexOf("results_flags") == 0
+				|| c.indexOf("channel_flags") == 0
+				|| c.indexOf("mainpage_flags") == 0
+				|| c.indexOf("global_flags") == 0) {
+					flags += c += "; "
+				}
+			}
+
+			var f = document.getElementById("exported-flags-container")
+			document.getElementById("exported-flags").value = flags;
+			f.className = ""
+			funExpand(f, 195)
+		}
+
+		// import flags
+		function flags_import_open() {
+			var f = document.getElementById("imported-flags-container")
+			f.className = ""
+			funExpand(f, 225)
+		}
+
+		function add_flags() {
+			var f = document.getElementById("imported-flags").value
+			var fs = f.split("; ")
+			for(var c in fs) {
+				c = fs[c]
+				if(c.indexOf("=") !== -1) {
+					var cName = c.split("=")[0]
+					var cValue = c.split("=")[1]
+					document.cookie = cName + "=" + cValue + "; Path=/; expires=Fri, 31 Dec 2066 23:59:59 GMT"
+				}
+			}
+
+			alert("flags imported.")
+			location.reload()
+		}
+
+		// export session token
+		function session_export() {
+			var sessionTextarea = document.getElementById("session-text")
+			var session = ""
+			var cookies = document.cookie.split("; ")
+			for(var c in cookies) {
+				c = cookies[c]
+				if(c.indexOf("syncses=") == 0) {
+					session = c.split("syncses=")[1]
+				}
+			}
+			if(!session) {
+				alert("no session! comment on a video to get your session token and try again.")
+				return;
+			}
+
+			sessionTextarea.value = session
+
+			var r;
+			if (window.XMLHttpRequest) {
+				r = new XMLHttpRequest()
+			} else {
+				r = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			r.open("GET", "/shorten_session")
+			r.setRequestHeader("session", session)
+			r.send(null)
+			r.onreadystatechange = function(e) {
+				if((r.readyState == 4 || this.readyState == 4 || e.readyState == 4)) {
+					sessionTextarea.value += "\n" + r.responseText
+					var f = document.getElementById("exported-session-container")
+					f.className = ""
+					funExpand(f, 90)
+				}
+			}
+		}
+
+		// import session token
+		function session_import() {
+			var f = document.getElementById("imported-session-container")
+			f.className = ""
+			funExpand(f, 60)
+		}
+
+		function import_session_do() {
+			var f = document.getElementById("import-session-text").value
+			document.cookie = "syncses=" + f + "; Path=/; expires=Fri, 31 Dec 2066 23:59:59 GMT"
+			alert("session imported.")
+			location.reload()
+		}
+
+		// export data
+		function data_export() {
+			var compiledData = "c:\x00" + document.cookie + "\x00"
+			var r;
+			if (window.XMLHttpRequest) {
+				r = new XMLHttpRequest()
+			} else {
+				r = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			if(window.localStorage) {
+				var saveVars = [
+					"favorites", "filtered", "lastNotif", "playlistsIndex",
+					"quicklistVids", "subscriptions", "watch_history"
+				]
+				saveVars.forEach(function(v) {
+					if(localStorage[v]) {
+						compiledData += "/l:" + v + ":\x00" + localStorage[v] + "\x00";
+						if(v == "playlistsIndex") {
+							JSON.parse(localStorage[v]).forEach(function(p) {
+								if(localStorage["playlist-" + p.id]) {
+									compiledData += "/l:" + "playlist-" + p.id + ":\x00"
+												 + localStorage["playlist-" + p.id]
+												 + "\x00"
+								}
+							})
+						}
+					}
+				})
+			}
+			r.open("POST", "/export_flags_data")
+			r.send(compiledData)
+			r.onreadystatechange = function(e) {
+				if((r.readyState == 4 || this.readyState == 4 || e.readyState == 4)) {
+					var ta = document.getElementById("export-data-text")
+					ta.value = r.responseText
+					var f = document.getElementById("exported-data-container")
+					f.className = ""
+					funExpand(f, 90)
+				}
+			}
+		}
+
+		// import data
+		function data_import() {
+			var f = document.getElementById("imported-data-container")
+			f.className = ""
+			funExpand(f, 90)
+		}
+
+		function data_import_do() {
+			var t = document.getElementById("import-data-text").value
+			var r;
+			if (window.XMLHttpRequest) {
+				r = new XMLHttpRequest()
+			} else {
+				r = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			r.open("GET", "/get_flags_data?rn=" + Math.random())
+			r.setRequestHeader("code", t)
+			r.send(null)
+			r.onreadystatechange = function(e) {
+				if((r.readyState == 4 || this.readyState == 4 || e.readyState == 4)) {
+					if(r.responseText.indexOf("c:") == -1) {
+						alert(r.responseText)
+					} else {
+						applyImport(r.responseText)
+					}
+				}
+			}
+		}
+
+		function applyImport(d) {
+			var importMsg = "import done - "
+			var cookiesChanged = 0;
+			var localChanged = 0;
+
+			// cookies
+			var cookies = d.split("c:\x00")[1].split("\x00")[0].split("; ")
+			for(let c in cookies) {
+				c = cookies[c]
+				if(typeof(c) == "string" && c.indexOf("=") !== -1) {
+					var name = c.split("=")[0]
+					var value = c.split("=")[1]
+					document.cookie = name + "=" + value + "; Path=/; expires=Fri, 31 Dec 2066 23:59:59 GMT"
+					cookiesChanged++
+				}
+			}
+			importMsg += cookiesChanged + " cookies affected"
+
+			// localstorage
+			var ls = ""
+			if(d.indexOf("/l:") !== -1 && window.localStorage) {
+				var e = d.split("/l:")
+				for(var f in e) {
+					f = e[f]
+					if(typeof(f) == "string" && f.indexOf(":\x00") !== -1) {
+						var name = f.split(":\x00")[0]
+						var value = f.split(":\x00")[1].split("\x00")[0]
+						localStorage[name] = value;
+						localChanged++
+					}
+				}
+			}
+			if(localChanged > 0) {
+				importMsg += ", " + localChanged + " localStorage elements."
+			}
+
+			alert(importMsg)
+		}
+	</script>
+</body>
+
+</html>

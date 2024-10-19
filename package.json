@@ -1,0 +1,27 @@
+{
+  "name": "yt2009",
+  "version": "1.13.2",
+  "description": "2009 frontend for youtube",
+  "main": "back/backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "2009",
+    "youtube",
+    "yt2009",
+    "frontend"
+  ],
+  "dependencies": {
+    "express": "latest",
+    "google-protobuf": "^3.21.2",
+    "maxmind-db-reader": "^0.2.1",
+    "node-fetch": "^2.6.7",
+    "node-html-parser": "^5.3.3",
+    "readline-sync": "^1.4.10",
+    "ws": "latest",
+    "ytdl-core": "latest"
+  },
+  "author": "dxegom",
+  "license": "ISC"
+}

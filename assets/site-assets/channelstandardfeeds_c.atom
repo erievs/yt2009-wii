@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<entry
+	xmlns='http://www.w3.org/2005/Atom'
+	xmlns:media='http://search.yahoo.com/mrss/'
+	xmlns:yt='http://gdata.youtube.com/schemas/2007'>
+	<id>tag:youtube.com,2008:standardchannel:TopGear</id>
+	<updated>2011-12-21T09:35:27.199Z</updated>
+	<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+	<title>Top Gear</title>
+	<summary>Want to watch a bit of Top Gear on the interweb? Next to browsing the video vault at http://www.topgear.com this new You Tube channel is the most comprehensive collection of official clips you'll find online.
+All the iconic films are there -- from Richard's epic race against the Eurofighter to Clarkson's office drive in that tiny Peel P50. You can also relive the boys' biggest challenges -- including amphibious cars and that trip across America.
+Add to that a bunch of stars in our reasonably priced car, the odd explosive stunt and a ton of Stig power laps and everything's covered. Just browse using our playlists for comprehensive clip listings or search by most viewed or discussed.
+Interested in what other videos BBC Worldwide has to offer?  Click here:
+http://www.youtube.com/profile?user=BBCWorldwide</summary>
+	<link rel='self' type='application/atom+xml' href='http://192.168.1.150/feeds/api/channelstandardfeeds/gb/most_viewed/c/TopGear?v=2'/>
+	<author>
+		<name>PewdiePie</name>
+		<uri>http://gdata.youtube.com/feeds/api/users/topgear</uri>
+	</author>
+	<yt:channelStatistics commentCount='18887' totalUploadViewCount='271034317' videoCount='414' viewCount='18870380'/>
+	<media:group>
+		<media:thumbnail url='http://i3.ytimg.com/i/jOl2AUblVmg2rA_cRgZkFg/1.jpg'/>
+		<media:title>Top Gear</media:title>
+	</media:group>
+</entry>

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>YouTube - video_title</title>
+	<link rel="stylesheet" href="www-core-vfl122413.css">
+	<link rel="stylesheet" href="nbedit_style.css">
+	<link rel="stylesheet" href="/assets/site-assets/html5-player.css">
+	<link rel="stylesheet" href="/assets/site-assets/search-suggestions.css">
+	<style type="text/css">
+		.autoshare-promo-outer {
+			border: 1px solid #a0b3d9;
+		}
+		.autoshare-promo-inner {
+			border: 1px solid #ffffff;
+			background-color: #eff4fd;
+			padding: 6px;
+			font-size: 110%;
+		}
+		.autoshare-promo-action {
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+	</style>
+	<!--yt2009_f_apr1-->
+	<!--yt2009_style_fixes_f-->
+	<!--yt2009_style_hq_button-->
+</head>
+<body class="en_US is-english yt2009_ch5">
+	<script>
+		function naturalHeight(element) {
+			if(element.naturalHeight) {
+				return element.naturalHeight
+			} else {
+				// polyfill
+				// modified from https://gist.github.com/jalbertbowden/5273983
+				var img = new Image();
+    			img.src = element.src;
+				return img.height;
+			}
+		}
+		// check if the video exists based on the thumbnail image height
+		// put on the top to make sure it's working by the time the images load
+		function checkExists(element) {
+			if(naturalHeight(element) <= 90) {
+				// 404 image
+				var id = element.parentNode.getAttribute("href").split("?v=")[1]
+				try {
+					document.querySelector("[data-id=\"" + id + "\"]").className += " hid"
+				}
+				catch(error) {
+					// old browser syntax
+					var videos = document.getElementsByTagName("*")
+					for(var video in videos) {
+						if(videos[video].nodeName
+						&& videos[video].getAttribute("data-id") == id) {
+							videos[video].className += " hid"
+						}
+					}
+				}
+			}
+		}
+	</script>
+	<div id="masthead-container">
+		<div id="masthead">
+			<a href="/">
+				<button id="logo" class="master-sprite" title="" onclick="window.top.location.href='/'; return false;"></button>
+			</a>
+			<div id="masthead-search">
+				<form autocomplete="off" class="search-form" action="/results" method="get" name="searchForm">
+					<input id="masthead-search-term" class="search-term" name="search_query" type="text" tabindex="1" value="" maxlength="128">
+					<input id="search-type-masthead" name="search_type" type="hidden" value="">
+					<a class="yt-button yt-button-primary" id="" onclick="yt2009_search();"><span style="display: block;">lang_search</span></a>
+				</form>
+			</div>
+			<div id="masthead-utility" class="util-a1">
+				<!--yt2009_login_insert-->
+			</div>
+			<div id="masthead-nav-user">
+				<a href="/watch_queue" id="quicklist-nav" style="background-color: rgb(255, 255, 255);" class="hid">lang_quicklist (<span id="quicklist-nav-count">?</span>)</a>
+				<a href="/my_subscriptions?masthead=1">lang_subs_btn</a>
+				<a href="/my_history">lang_history_btn</a>
+				<a class="yt-button yt-button-urgent yt-button-short" id="" class href="/my_videos_upload"><span>lang_upload_btn</span></a>
+			</div>
+			<div id="masthead-nav-main">
+				<a href="/">lang_home</a>
+				<a href="/videos">lang_videos</a>
+				<a href="/channels">lang_channels</a>
+			</div>
+			<div id="masthead-end"></div>
+		</div>
+	</div>
+	<div id="baseDiv" class="date-20090927 video-info ">
+		<!--yt2009_notice-->
+		<div id="watch-vid-title" class="title  longform">
+			<div id="watch-longform-buttons">
+				<!--yt2009_turn_down_lights-->
+				<div id="player-toggle-switch" class="reverse-tooltip-wrapper">
+					<button id="watch-longform-player" class="master-sprite" onmouseover="showSimpleTooltip(this)" onmouseout="hideSimpleTooltip(this)"></button>
+					<div class="reverse-tooltip-wrapper-box" style="display: none;">
+						<div class="reverse-tooltip-box">lang_watch_chsize</div>
+						<img class="reverse-tooltip-box-bot" src="/assets/site-assets/pixel-vfl73.gif"/>
+					</div>
+				</div>
+				<div id="player-open-popup" class="reverse-tooltip-wrapper">
+					<button id="watch-longform-popup" class="master-sprite" onmouseover="showSimpleTooltip(this)" onmouseout="hideSimpleTooltip(this)"></button>
+					<div class="reverse-tooltip-wrapper-box" style="display: none;">
+						<div class="reverse-tooltip-box">lang_watch_popout</div>
+						<img class="reverse-tooltip-box-bot" src="/assets/site-assets/pixel-vfl73.gif"/>
+					</div>
+				</div>
+				<div class="clearL"></div>
+			</div>
+			<h1 class="watch-vid-ab-title">video_title</h1>
+		</div>
+		<div class="clearL"></div>
+		<!-- end top section -->
+		<div id="watch-this-vid" class="yt-rounded">
+			<!--yt2009_f-->
+			<!--yt2009_html5_rm_1-->
+			<div id="watch-player-div" class="flash-player">
+				<video class="html5_video" preload="auto">
+					mp4_files
+				</video>
+				<div class="volume_popout">
+					<span class="volume_head"></span>
+				</div>
+				<div class="player_additions_popout" style="bottom: -59px">
+					<span class="annotations none"></span>
+					<span class="cc none">
+						<div class="triangle-container">
+							<span class="triangle"></span>
+						</div>
+					</span>
+					<span class="captions_popup" style="display: none;">
+						<div class="captions_popup_container">
+							<h2>Caption Actions</h2>
+							<h2>Caption Selection</h2>
+							<ul class="captions_selection">
+							</ul>
+						</div>
+					</span>
+				</div>
+				<div class="video_controls">
+					<span class="play_btn"></span>
+					<span class="pause_btn" style="display: none;"></span>
+					<div class="progress_container">
+						<span class="seek"></span>
+						<span class="loaded"></span>
+						<span class="elapsed">
+							<span class="seek_btn"></span>
+						</span>
+					</div>
+					<p class="timer">0:00 / 0:00</p>
+					<div class="volume_container">
+						<span class="volume_button"></span>
+					</div>
+					<!--yt2009_hq_btn-->
+					<span class="fullscreen"></span>
+					<span class="player_additions"></span>
+				</div>
+				<span class="seek_time hid"><p class="seek_time_text">0:00</p></span>
+				<span class="html5-loading hid"></span>
+				<div class="endscreen hid">
+					<!--yt2009_endscreen_html_insert-->
+				</div>
+				<span class="flashing-btn pause hid"
+					style="opacity: 0.9;width: 75px;height: 75px;"
+				></span>
+				<span class="flashing-btn play hid"
+					style="opacity: 0.9;width: 75px;height: 75px;"
+				></span>
+				<style class="player_auto_css"></style>
+			</div>
+			<!--yt2009_html5_rm_2-->
+		</div>
+		<!-- begin right section -->
+		<div id="watch-other-vids">
+			<!--yt2009_bannercard-->
+			<div id="watch-channel-vids-div" class="vcard">
+				<div id="watch-channel-vids-top">
+					<div id="watch-channel-icon" class="user-thumb-medium">
+						<div>
+							<!--yt2009_authorpic-wayback-->
+							<a class="url yt2009-channel-avatar" href="channel_url"><img src="channel_icon" class="photo" alt="Channel Icon"></a>
+						</div>
+					</div>
+					<div id="watch-channel-subscribe">
+						<div id="subscribeDiv" data-yt2009-subscribe-button>
+							<a class="yt-button yt-button-urgent" id="" class href="#"><span>lang_subscribe</span></a>
+						</div>
+						<div id="unsubscribeDiv" data-yt2009-unsubscribe-button>
+							<a class="yt-button" id="" class href="#"><span>lang_unsubscribe</span></a>
+						</div>
+					</div>
+					<div id="watch-channel-stats">
+						<!--yt2009_author_wayback-->
+						<a href="channel_url" class="hLink fn n contributor yt2009-channel-link">
+							channel_name
+						</a><br>
+						<span class="watch-video-added post-date">upload_date</span><br />
+						<div id="watch-video-details-toggle">
+							<div id="watch-video-details-toggle-less">
+								(<a href="#" class="hLink more_info">lang_moreinfo</a>)
+							</div>
+							<div id="watch-video-details-toggle-more" style="display: none;">
+								(<a href="#" class="hLink less_info">lang_lessinfo</a>)
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div id="watch-video-details">
+					<div id="watch-video-details-inner">
+						<div id="watch-video-details-inner-less">
+							<div class="watch-video-desc">
+								<!--yt2009_wayback_short_desc--><span class="description">
+									video_short_description
+								</span>
+							</div>
+						</div>
+						<div id="watch-video-details-inner-more" style="display: none;">
+							<div class="watch-video-desc description">
+								<!--yt2009_wayback_full_desc--><span>
+									video_full_description
+								</span>
+							</div>
+							<div id="watch-category">
+								<span class="watch-channel-stat">lang_watch_cat</span>
+								<a id="watch-video-category" href="category_link" class="hLink category">category_name</a><br>
+							</div>
+							<div id="watch-video-tags-div">
+								<div class="floatL">
+									<span class="watch-channel-stat">lang_tags_begin&nbsp;</span>
+								</div>
+								<div id="watch-video-tags" class="floatL">
+									video_tags_html
+								</div>
+								<div class="clearL"></div>
+							</div>
+						</div>
+						<div id="watch-url-div">
+							<form action="" name="urlForm" id="urlForm">
+								<label for="watch-url-field">URL</label>
+								<input name="video_link" id="watch-url-field" type="text" class="email-video-url" value="video_url" onclick="document.urlForm.video_link.focus();document.urlForm.video_link.select();" readonly>
+								<div class="clearL"></div>
+							</form>
+						</div>
+						<div id="watch-embed-div">
+							<form action="" name="embedForm" id="embedForm">
+								<label for="embed_code">Embed</label>
+								<div>
+									<input id="embed_code" name="embed_code" type="text" value="video_embed_link" onclick="document.embedForm.embed_code.focus();document.embedForm.embed_code.select();show_embed();" readonly />
+									<span id="watch-embed-customize-wrapper" class="tooltip-wrapper" style="z-index: 0;">
+										<button id="watch-embed-customize" onclick="show_embed();return false;" readonly class="master-sprite" onmouseover="showSimpleTooltip(this, true)" onmouseout="hideSimpleTooltip(this, true)"></button>
+										<div class="tooltip-wrapper-box" style="display: none;">
+											<div class="tooltip-box">Customize</div>
+											<img class="tooltip-box-bot" src="/assets/site-assets/pixel-vfl73.gif">
+										</div>
+									</span>
+								</div>
+								<div class="clearL"></div>
+							</form>
+						</div>
+					</div>
+					<form id="watch-customize-embed-div" name="embedCustomizeForm" style="display: none;">Loading...
+					</form>
+				</div>
+			</div>
+			<!--yt2009_playlist_panel-->
+			<!--yt2009_more_from_panel-->
+			<div class="yt2009-ql-top" id="quicklistDiv"></div>
+			<div id="watch-related-videos-panel" class="watch-discoverbox-wrapper yt-uix-expander " data-expander-action="watchTogglePanel" data-discoverbox-type="related" data-discoverbox-username="">
+				<h2 class="yt-uix-expander-head" onclick="toggleExpander(this)">
+					<button title="" class="yt-uix-expander-arrow master-sprite"></button>
+					<span>lang_related</span>
+				</h2>
+				<div id="watch-related-vids-body" class="watch-discoverbox-body mini-list-view yt-uix-expander-body">
+					<div id="watch-related-discoverbox" class="watch-discoverbox" style="height:432px">
+						<div class="yt2009-wayback-features-related">
+							<!--yt2009_wayback_related_features_marking-->
+						</div>
+						<div class="yt2009-exp-related-mark">
+							<!--yt2009_exp_related_marking-->
+						</div>
+						<div class="yt2009-default-related">
+							<!--yt2009_add_marking_related-->
+						</div>
+					</div>
+				</div>
+				<div class="clearL"></div>
+			</div>
+		</div>
+		<!-- end right section -->
+		<!-- begin info section -->
+		<div id="watch-this-vid-info">
+			<div id="watch-ratings-views">
+				<div id="watch-rating-div">
+					<div id="ratingWrapper">
+						<div class="floatL">
+							<div id="ratingStars" class="floatL">
+								<button class="yt2009-stars master-sprite ratingL ratingL-4.5" title="4.5"></button>
+							</div>
+							<div id="ratingMessage">
+								<div id="defaultRatingMessage"><span class="smallText">lang_ratings_prefix yt2009_ratings_count lang_ratings_suffix</span></div>
+								<div id="hoverMessage" style="width:100%" class="hid"><a href="#">Sign in</a> to rate</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="watch-views-div">
+					<span id="watch-views">lang_views_prefix <span id="watch-view-count">video_view_count</span> lang_views_suffix</span>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div id="autoshare-promo-rate" style="margin-bottom:10px;display:none;">
+				<div class="autoshare-promo-outer">
+					<div class="autoshare-promo-inner">
+						<div id="autoshare-x-rate" style="float:right;padding-left:10px;" class="disabled">
+							<button class="master-sprite img-php-close-button" title="Not right now, thanks">
+							</button>
+						</div>
+						Like to rate videos and let people know what you think?
+						Automatically share your ratings, favorites, and more on Facebook, Twitter, and Google Reader
+						with YouTube Autoshare.
+						<div style="clear:both;"></div>
+						<div class="autoshare-promo-action">
+							<a class="yt-button" id="" class href="/autoshare?feature=rate" onclick=""><span>Try Autoshare</span></a>
+							<a href="#" onclick="toggleDisplay('autoshare-whatis-rate');return false">What is
+								Autoshare?</a>
+						</div>
+						<div id="autoshare-whatis-rate" class="hid">
+							Autoshare makes certain YouTube activities public on the services you choose. Select only
+							the services you are comfortable with - like Facebook, Twitter, or Google Reader - to let
+							your friends know what you like on YouTube. You can turn Autoshare off at any time.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="watch-main-area">
+				<div id="watch-actions-area">
+					<div class="watch-tabs master-sprite">
+						<div id="watch-tab-favorite" class="watch-tab">
+							<a id="watch-action-favorite-link" href="javascript:switchWatchTab('favorite')" class="watch-action-link">
+								<button id="watch-action-favorite" class="master-sprite" title="Favorite"></button>
+								<span class="watch-action-text">lang_favorite</span>
+							</a>
+							<button class="master-sprite watch-tab-arrow" title=""></button>
+						</div>
+						<div id="watch-tab-share" class="watch-tab watch-tab-sel">
+							<a id="watch-action-share-link" href="javascript:switchWatchTab('share')" class="watch-action-link">
+								<button id="watch-action-share" class="master-sprite" title="Share"></button>
+								<span class="watch-action-text">lang_share</span>
+							</a>
+							<button class="master-sprite watch-tab-arrow" title=""></button>
+						</div>
+						<div id="watch-tab-playlists" class="watch-tab">
+							<a id="watch-action-playlists-link" href="javascript:switchWatchTab('playlists')" class="watch-action-link">
+								<button id="watch-action-playlists" class="master-sprite" title="Add to Playlists"></button>
+								<span class="watch-action-text">lang_playlists</span>
+							</a>
+							<button class="master-sprite watch-tab-arrow" title=""></button>
+						</div>
+						<div id="watch-tab-flag" class="watch-tab" title="Report video as inappropriate">
+							<a id="watch-action-flag-link" href="javascript:switchWatchTab('flag')" class="watch-action-link">
+								<button id="watch-action-flag" class="master-sprite" title="Report video as inappropriate"></button>
+								<span class="watch-action-text">lang_flag</span>
+							</a>
+							<button class="master-sprite watch-tab-arrow" title=""></button>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="watch-tab-contents">
+						<div id="watch-tab-share-body" class="watch-tab-body watch-tab-sel">
+							<div id="aggregationServicesDiv">
+								<!--yt2009_share_insert-->
+								
+								<div id="autoshare-promo-share" style="margin-top:10px; margin-bottom:10px;display:none;">
+									<div class="autoshare-promo-outer">
+										<div class="autoshare-promo-inner">
+											<div id="autoshare-x-share" style="float:right;padding-left:10px;" class="disabled">
+												<button class="master-sprite img-php-close-button" title="Not right now, thanks">
+												</button>
+											</div>
+											Like to share videos with friends?
+											Automatically share your ratings, favorites, and more on Facebook, Twitter,
+											and Google Reader with YouTube Autoshare.
+											<div style="clear:both;"></div>
+											<div class="autoshare-promo-action">
+												<a class="yt-button" id="" class href="/autoshare?feature=share" onclick=""><span>Try Autoshare</span></a>
+												<a href="#">What is Autoshare?</a>
+											</div>
+											<div id="autoshare-whatis-share" class="hid">
+												Autoshare makes certain YouTube activities public on the services you
+												choose. Select only the services you are comfortable with - like
+												Facebook, Twitter, or Google Reader - to let your friends know what you
+												like on YouTube. You can turn Autoshare off at any time.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="addToBlogResult" class="watch-action-result" style="display: none;">This video will appear on your blog shortly.</div>
+							<div id="watch-share-video-div" class="watch-more-action" style="display: none;">Loading...
+							</div>
+							<div id="shareVideoEmailDiv" class="watch-more-action martT0" style="display: none;">
+								Loading...</div>
+							<div id="shareMessageQuickDiv" class="watch-more-action" style="display: none;">Loading...
+							</div>
+							<div id="watch-share-blog-quick" class="watch-more-action" style="display: none;">Loading...
+							</div>
+							<div id="shareVideoResult" class="watch-action-result" style="display: none;">Thank you for sharing this video!</div>
+						</div>
+						<div id="watch-tab-favorite-body" class="watch-tab-body">
+							<div id="watch-add-faves-result" class="watch-more-action">
+								<div id="watch-remove-faves" class="watch-action-result">
+									<div class="close">
+										<a href="#" class="hLink" title="close this layer" onclick="switchWatchTab('share')">Close</a>
+									</div>
+									<span class="watch-check-grn-circle"></span>
+									<span class="watch-action-response">
+										This video has been <strong>added</strong> to your <a href="/my_favorites">Favorites</a>.
+ 										(<a href="#" onclick="favorite_undo();">Undo</a>)
+									</span>
+								</div>
+								<div id="watch-add-faves" class="watch-action-result hid">
+									<div class="close">
+										<a href="#" class="hLink" title="close this layer" onclick="switchWatchTab('share')">Close</a>
+									</div>
+									<span class="watch-check-grn-circle"></span>
+									<span class="watch-action-response">
+										This video has been <strong>removed</strong> from your <a href="/my_favorites">Favorites</a>.
+										(<a href="#" onclick="favorite_video()">Undo</a>)
+									</span>
+								</div>
+								<div id="autoshare-promo-favorite" style="margin-top:10px;display:none;">
+									<div class="autoshare-promo-outer">
+										<div class="autoshare-promo-inner">
+											<div id="autoshare-x-favorite" style="float:right;padding-left:10px;"
+												 class="disabled">
+												<button class="master-sprite img-php-close-button"
+														onmouseover="_gel('autoshare-x-favorite').className=''"
+														onmouseout="_gel('autoshare-x-favorite').className='disabled'"
+														onclick="dismissAutosharePromo('favorite'); return false;"
+														title="Not right now, thanks">
+												</button>
+											</div>
+											Like to Favorite videos and let people know what you think?
+											Automatically share your ratings, favorites, and more on Facebook, Twitter,
+											and Google Reader with YouTube Autoshare.
+											<div style="clear:both;"></div>
+											<div class="autoshare-promo-action">
+												<a class="yt-button" id="" class
+												   href="/autoshare?feature=favorite"
+												   onclick=""><span>Try Autoshare</span></a>
+												<a href="#"
+												   onclick="toggleDisplay('autoshare-whatis-favorite');return false">What
+													is Autoshare?</a>
+											</div>
+											<div id="autoshare-whatis-favorite" class="hid">
+												Autoshare makes certain YouTube activities public on the services you
+												choose. Select only the services you are comfortable with - like
+												Facebook, Twitter, or Google Reader - to let your friends know what you
+												like on YouTube. You can turn Autoshare off at any time.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="recent-fav-video" class="hid"></div>
+						<div id="watch-tab-playlists-body" class="watch-tab-body">
+							<div id="addToPlaylistDiv" class="watch-more-action" style="padding: 0px 8px 8px 0px;">
+								<div class="close"><a href="#" title="close this layer" onclick="switchWatchTab('share')">close</a></div>
+								<h2>Add to Playlist</h2>
+								<select class="playlists-options y-in"></select>
+								<div class="playlist-add y-in">
+									<a class="yt-button" id="playlist-add-btn" href="#"><span>Add</span></a>
+								</div>
+								<div class="playlist-create y-in" style="display: none;">
+									<span>Playlist Name: </span>
+									<input type="text" class="playlist-name-input" autocomplete="off" spellcheck="false"/>
+									<a class="yt-button" id="playlist-create-btn" href="#"><span>Add</span></a>
+								</div>
+							</div>
+							<div id="addToPlaylistResult" class="watch-action-result" style="display: none;">
+								<div class="close"><a href="#" title="close this layer" onclick="playlistResultBack();">close</a></div>
+								<span class="watch-check-grn-circle"></span>
+								The video has been added to your playlist.
+							</div>
+						</div>
+						<div id="rec-playlist-video" class="hid"></div>
+						<div id="watch-tab-flag-body" class="watch-tab-body">
+							<div id="inappropriateVidDiv" class="watch-more-action" style="padding: 0px 8px 8px 5px;">
+								Loading...
+							</div>
+							<div id="inappropriateMsgsDiv" class="hid">
+								<div class="close"><a href="#" title="close this layer" onclick="switchWatchTab('share');">close</a></div>
+								<span class="watch-check-grn-circle"></span>
+								Thank you for sharing your concerns.
+							</div>
+							<div id="inappropriateMsgLogin" style="padding: 2px 8px 8px 8px;" class="hid">
+								<!--Want to flag a video?
+								<strong><a href="">Sign In</a> or <a href="/signup?next=%2F">Sign Up</a> now!</strong>-->
+							</div>
+						</div>
+						<div id="watch-tab-download-body" class="watch-tab-body">
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div id="watch-stats-data-wrapper" class="yt-uix-expander yt-uix-expander-collapsed expander-small"
+				 data-expander-action="watchExpandStatBody">
+				<h4 class="yt-uix-expander-head yt2009-stats-data-expander">
+					<button title="" class="yt-uix-expander-arrow master-sprite"></button>
+					lang_statsdata
+				</h4>
+				<div id="watch-tab-stats-body" class="yt-uix-expander-body">
+					Loading...
+				</div>
+			</div>
+			<div class="yt-uix-expander yt-uix-expander-collapsed expander-small">
+				<div class="floatR">
+					<a class="hLink smallText yt2009-signin-hide" href="#">Sign in to post a Video Response</a>
+				</div>
+				<h4 class="yt-uix-expander-head yt2009-video-response-expander">
+					<button title="" class="yt-uix-expander-arrow master-sprite"></button>
+					lang_responses
+					<!--<span class="expander-head-stat">(0)</span>-->
+				</h4>
+				<div id="watch-video-responses-children" class="yt-uix-expander-body">
+					Loading...
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div id="watch-comment-panel" class="yt-uix-expander  expander-small"
+				 data-expander-action="watchToggleCommentPanel">
+				<div id="watch-comment-post-comment" class="yt2009-signin-hide">
+					<a href="#" class="hLink smallText" id="post_text_comment_link" rel="nofollow">Sign in to post a Comment</a>
+				</div>
+				<h4 class="yt-uix-expander-head" onclick="toggleCommentsExpander(this)">
+					<button title="" class="yt-uix-expander-arrow master-sprite"></button> lang_comments<a href="#" class="smallText hLink">lang_comment_options</a>
+				</h4>
+				<div class="clear"></div>
+				<div id="watch-comments-options" class="hid">
+					<div id="watch-comments-options-inner">Loading...</div>
+				</div>
+				<div class="yt-uix-expander-body">
+					<div id="div_main_comment2"></div>
+					<div id="recent_comments" class="comments">
+						<div class="comments-container" data-continuation-token="yt2009_comments_continuation_token" data-page="1">
+							<!--yt2009_custom_comments-->
+							<!--yt2009_wayback_comments-->
+							<!--yt2009_add_comments-->
+						</div>
+						<table id="watch-comments-footer-table">
+							<tbody>
+								<tr>
+									<td class="watch-comments-footer-td">
+										<strong>lang_showing_comments_p1 <span id="watch-comment-count">yt2009_comment_count</span></strong> lang_showing_comments_p2
+									</td>
+									<td class="watch-comments-footer-td yt2009_hook_more_comments" id="watch-comments-show-more-td">
+										<span id="watch-comments-loading-span"></span>
+										<a class="yt-button" id="watch-comments-show-more-button" href="#" onclick="onWatchCommentsShowMore(); return false;"><span>lang_more_comments</span></a>
+									</td>
+									<td class="watch-comments-footer-td" id="watch-comments-view-all-td">
+										<span id="watch-comments-view-all-span" style="visibility: hidden;cursor:default;"><a href="#" class="hLink" rel="nofollow">View All 0 comments</a></span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div id="watch-comment-post" class="yt2009-signin-hide">
+							<h2>lang_cmts_login_promo_p1</h2>
+							<div>lang_cmts_login_promo_p2</div>
+						</div>
+						<!--yt2009_relay_comment_form-->
+					</div>
+				</div>
+			</div>
+		</div> <!-- end info section -->
+			<!-- begin footer section -->
+			<div class="clear"></div>
+			<div id="footer">
+				<div class="search">
+					<form autocomplete="off" class="search-form" action="/results" method="get" name="footer-search-form">
+						<input id="footer-search-term" class="search-term" name="search_query" type="text" value="" maxlength="128">
+						<input id="search-type-footer" name="search_type" type="hidden" value="">
+						<a class="yt-button yt-button-primary" id="" class href="#"><span>lang_search</span></a>
+					</form>
+				</div>
+				<div class="links">
+					<table cellpadding="0" cellspacing="0">
+						<tr>
+							<th>lang_footer_yt</th>
+							<th>lang_footer_programs</th>
+							<th>lang_footer_help</th>
+							<th>lang_footer_policy</th>
+							<th>lang_footer_discover</th>
+						</tr>
+						<tr>
+							<td><a href="/t/contact_us">lang_footer_contact</a></td>
+							<td><a href="/t/advertising">lang_footer_advertising</a></td>
+							<td><b><a href="http://www.google.com/support/youtube/bin/static.py?page=start.cs&amp;hl=en-US" target="_blank">lang_footer_ghelp</a></b></td>
+							<td><a href="/t/privacy">lang_footer_privacy</a></td>
+							<td><a href="/mobile">lang_footer_mobile</a></td>
+						</tr>
+						<tr>
+							<td><a href="http://www.googlestore.com/youtube">lang_footer_store</a></td>
+							<td><a href="http://code.google.com/apis/youtube/overview.html">lang_footer_dev</a>
+							</td>
+							<td><a href="/t/yt_handbook_home">lang_footer_handbook</a>
+							</td>
+							<td><a href="/t/terms">lang_footer_tos</a></td>
+							<td><a href="/youtubeonyoursite">lang_footer_site</a></td>
+						</tr>
+						<tr>
+							<td><a href="/press_room">lang_footer_press</a></td>
+							<td><a href="/partners">lang_footer_partner</a></td>
+							<td><a href="http://www.google.com/support/forum/p/youtube?hl=en">lang_footer_community</a></td>
+							<td><a href="/t/dmca_policy">lang_footer_dmca</a></td>
+							<td><a href="/youtubeonyourtv">lang_footer_tv</a></td>
+						</tr>
+						<tr>
+							<td><a href="http://ytbizblog.blogspot.com/">lang_footer_business</a></td>
+							<td><a href="/t/content_management">lang_footer_cm</a></td>
+							<td><a href="http://www.google.com/support/youtube/bin/request.py?contact_type=abuse&amp;hl=en-US">lang_footer_safety</a></td>
+							<td><a href="/t/community_guidelines">lang_footer_guidelines</a></td>
+							<td><a href="/t/rss_feeds">lang_footer_rss</a></td>
+						</tr>
+						<tr>
+							<td><a href="/blog">lang_footer_blog</a></td>
+							<td></td>
+							<td><a href="/t/creators_corner">lang_footer_corner</a></td>
+							<td></td>
+							<td><a href="/testtube">lang_footer_test</a></td>
+						</tr>
+					</table>
+				</div>
+				<div class="region-and-language-pickers">
+					<div class="google-home">
+						<a href="http://www.google.com/webmasters/igoogle/youtube.html">lang_footer_igoogle</a>
+					</div>
+					<div class="region-picker-box">
+						<span class="region-label">lang_footer_location</span>
+						<strong class="region-title">lang_footer_worldwide</strong>
+						<a href="#" onclick="loadPicker('region-picker'); return false;">lang_footer_showloc</a>
+						<div id="region-picker-container">
+							<div id="region-picker-loading" style="display: none">Loading...</div>
+						</div>
+					</div>
+					<div class="language-picker-box">
+						<span class="language-label">lang_footer_language</span>
+						<strong class="language-title">lang_footer_langname</strong>
+						<a href="#" onclick="loadPicker('language-picker'); return false;">lang_footer_showlang</a>
+						<div id="language-picker-container">
+							<div id="language-picker-loading" style="display: none">Loading...</div>
+						</div>
+						<a href="https://latwefragi.pl/" target="_blank">latwefragi.pl</a>
+					</div>
+				</div>
+			</div>
+			<div id="copyright">lang_footer_copyright</div>
+		</div>
+			<div id="watch-longform-shade" style="display: none"></div>
+			<!-- end footer section -->
+			<!--yt2009-->
+			<!--hook /assets/site-assets/f_script.js -->
+			<script src="nbedit_watch.js"></script>
+			<script src="/assets/site-assets/yt2009quicklist.js"></script>
+			<script src="/assets/site-assets/html5-player.js"></script>
+			<script>
+				//yt2009-rating
+				initPlayer(document.querySelector("#watch-player-div"), true)
+				//yt2009-no-controls-fade
+				//yt2009-exp-hq-btn
+				//yt2009-annotation-redirect
+				//yt2009-always-annotations
+				//yt2009-always-captions
+				//yt2009-pmp4
+				//yt2009-fastload
+			</script>
+		<!--yt2009_hook_autoplay_flag-->
+		<!--yt2009_wayback_protocol-->
+		<!--yt2009_fe-->
+		lang_watchstyle_fixes
+		<script src="/assets/site-assets/yt2009langpicker.js"></script>
+		<script src="/assets/site-assets/search-suggestions.js"></script>
+</body>
+</html>

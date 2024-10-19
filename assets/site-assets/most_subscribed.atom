@@ -1,0 +1,989 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed
+	xmlns='http://www.w3.org/2005/Atom'
+	xmlns:gd='http://schemas.google.com/g/2005'
+	xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
+	xmlns:yt='http://gdata.youtube.com/schemas/2007'
+	xmlns:media='http://search.yahoo.com/mrss/' gd:etag='W/&quot;DkMHRn48fip7I2A9XRVRF00.&quot;'>
+	<id>tag:youtube.com,2008:channelstandardfeed:global:most_subscribed</id>
+	<updated>2015-05-27T05:27:17.076Z</updated>
+	<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+	<title>Most subscribed channels</title>
+	<logo>http://www.gstatic.com/youtube/img/logo.png</logo>
+	<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed?v=2'/>
+	<link rel='http://schemas.google.com/g/2005#batch' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/batch?v=2'/>
+	<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed?start-index=1&amp;max-results=50&amp;time=all_time&amp;v=2'/>
+	<link rel='service' type='application/atomsvc+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed?alt=atom-service&amp;v=2'/>
+	<link rel='next' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed?start-index=51&amp;max-results=50&amp;time=all_time&amp;v=2'/>
+	<author>
+		<name>YouTube</name>
+		<uri>http://www.youtube.com/</uri>
+	</author>
+	<generator version='2.1' uri='http://gdata.youtube.com'>YouTube data API</generator>
+	<openSearch:totalResults>100</openSearch:totalResults>
+	<openSearch:startIndex>1</openSearch:startIndex>
+	<openSearch:itemsPerPage>100</openSearch:itemsPerPage>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UC-lHJZR3Gqxm24_Vd_AJ5Yw</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>PewDiePie</title>
+		<summary>Businessy stuff: business dot pewdiepie at gmail dot com</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UC-lHJZR3Gqxm24_Vd_AJ5Yw?v=2'/>
+		<author>
+			<name>PewDiePie</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/PewDiePie</uri>
+			<yt:userId>-lHJZR3Gqxm24_Vd_AJ5Yw</yt:userId>
+		</author>
+		<yt:channelId>UC-lHJZR3Gqxm24_Vd_AJ5Yw</yt:channelId>
+		<yt:channelStatistics commentCount='289252' subscriberCount='36824518' totalUploadViewCount='8940311905' videoCount='2383' viewCount='2953975931'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-rJq9gk1QIis/AAAAAAAAAAI/AAAAAAAAAAA/Kx4wkvKOfxY/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-rJq9gk1QIis/AAAAAAAAAAI/AAAAAAAAAAA/Kx4wkvKOfxY/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>PewDiePie</media:title>
+		</media:group>
+	</entry>
+        <entry>
+		<id>tag:youtube.com,2008:standardchannel:UCy0tKL1T7wFoYcxCe0xjN6Q</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Technology Connections</title>
+		<summary>No description available.</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCBR8-60-B28hp2BmDPdntcQ?v=2'/>
+		<author>
+			<name>Technology Connections</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/UCy0tKL1T7wFoYcxCe0xjN6Q</uri>
+			<yt:userId>UCy0tKL1T7wFoYcxCe0xjN6Q</yt:userId>
+		</author>
+		<yt:channelId>UCy0tKL1T7wFoYcxCe0xjN6Q</yt:channelId>
+		<yt:channelStatistics commentCount='496820' subscriberCount='2460000' totalUploadViewCount='312159240' videoCount='204' viewCount='312159240'/>
+		<media:group>
+			<media:thumbnail url='https://yt3.googleusercontent.com/ytc/AIdro_lG8iUz4mpHBrzJSDYEKT0qe2XmhZUUUzhzcJbz9cE3rQ=s160-c-k-c0x00ffffff-no-rj' yt:name='default'/>
+			<media:thumbnail url='https://yt3.googleusercontent.com/ytc/AIdro_lG8iUz4mpHBrzJSDYEKT0qe2XmhZUUUzhzcJbz9cE3rQ=s160-c-k-c0x00ffffff-no-rj' yt:name='hqdefault'/>
+			<media:title>Technology Connections</media:title>
+		</media:group>
+	</entry>
+    <entry>
+		<id>tag:youtube.com,2008:standardchannel:UCBR8-60-B28hp2BmDPdntcQ</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Minecraft</title>
+		<summary>This is the official YouTube channel of Minecraft. We tell stories about the Minecraft Universe. ESRB Rating: Everyone 10+ with Fantasy Violence</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCBR8-60-B28hp2BmDPdntcQ?v=2'/>
+		<author>
+			<name>Minecraft</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/UC1sELGmy5jp5fQUugmuYlXQ</uri>
+			<yt:userId>UC1sELGmy5jp5fQUugmuYlXQ</yt:userId>
+		</author>
+		<yt:channelId>UC1sELGmy5jp5fQUugmuYlXQ</yt:channelId>
+		<yt:channelStatistics commentCount='496820' subscriberCount='13800000' totalUploadViewCount='2372938411' videoCount='1045' viewCount='2372938411'/>
+		<media:group>
+			<media:thumbnail url='https://yt3.ggpht.com/_DiGCcjGwJQAZ3zmlyB8TCYuA8O9tDJ9zGNysq5sR0rxwYb6SP5fW8cb3LbfcRwfui0m27oIhA=s88-c-k-c0x00ffffff-no-rj' yt:name='default'/>
+			<media:thumbnail url='https://yt3.ggpht.com/_DiGCcjGwJQAZ3zmlyB8TCYuA8O9tDJ9zGNysq5sR0rxwYb6SP5fW8cb3LbfcRwfui0m27oIhA=s88-c-k-c0x00ffffff-no-rj' yt:name='hqdefault'/>
+			<media:title>Minecraft</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCBR8-60-B28hp2BmDPdntcQ</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>YouTube Spotlight</title>
+		<summary>Welcome to YouTube's Spotlight channel, your daily go-to for discovering what's new and trending around the world. From music to culture to Internet phenomena, find those gotta-watch videos from across YouTube, all in one place.</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCBR8-60-B28hp2BmDPdntcQ?v=2'/>
+		<author>
+			<name>YouTube Spotlight</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/YouTube</uri>
+			<yt:userId>BR8-60-B28hp2BmDPdntcQ</yt:userId>
+		</author>
+		<yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+		<yt:channelStatistics commentCount='496820' subscriberCount='22858319' totalUploadViewCount='580415234' videoCount='209' viewCount='368087998'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-dL2jeHlm2Ok/AAAAAAAAAAI/AAAAAAAAAAA/ZCMMkRj-hrw/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-dL2jeHlm2Ok/AAAAAAAAAAI/AAAAAAAAAAA/ZCMMkRj-hrw/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>YouTube Spotlight</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCczhp4wznQWonO7Pb8HQ2MQ</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Movies</title>
+		<summary>YouTube Movies (United States).</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCczhp4wznQWonO7Pb8HQ2MQ?v=2'/>
+		<author>
+			<name>Movies</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/movies</uri>
+			<yt:userId>czhp4wznQWonO7Pb8HQ2MQ</yt:userId>
+		</author>
+		<yt:channelId>UCczhp4wznQWonO7Pb8HQ2MQ</yt:channelId>
+		<yt:channelStatistics commentCount='259' subscriberCount='18623047' totalUploadViewCount='0' videoCount='0' viewCount='208039369'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-DIjHsEMMaRE/AAAAAAAAAAI/AAAAAAAAAAA/q6whn_JcUH8/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-DIjHsEMMaRE/AAAAAAAAAAI/AAAAAAAAAAA/q6whn_JcUH8/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Movies</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCY30JRSgfhYXA6i6xX1erWg</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Smosh</title>
+		<summary>New video every Friday. Make sure you also check out our 2nd Channel for 2 bonus videos every week!
+
+Contact Us: http://smosh.com/contact-us</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCY30JRSgfhYXA6i6xX1erWg?v=2'/>
+		<author>
+			<name>Smosh</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/smosh</uri>
+			<yt:userId>Y30JRSgfhYXA6i6xX1erWg</yt:userId>
+		</author>
+		<yt:channelId>UCY30JRSgfhYXA6i6xX1erWg</yt:channelId>
+		<yt:channelStatistics commentCount='1377922' subscriberCount='20480471' totalUploadViewCount='4389997354' videoCount='496' viewCount='684651738'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-AufHIQ3sLmM/AAAAAAAAAAI/AAAAAAAAAAA/hPFE6k06-Ls/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-AufHIQ3sLmM/AAAAAAAAAAI/AAAAAAAAAAA/hPFE6k06-Ls/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Smosh</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCZJ7m7EnCNodqnu5SAtg8eQ</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>HolaSoyGerman.</title>
+		<summary>Los Hombres De Verdad Usan Pantuflas De Perrito</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCZJ7m7EnCNodqnu5SAtg8eQ?v=2'/>
+		<author>
+			<name>HolaSoyGerman.</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/HolaSoyGerman</uri>
+			<yt:userId>ZJ7m7EnCNodqnu5SAtg8eQ</yt:userId>
+		</author>
+		<yt:channelId>UCZJ7m7EnCNodqnu5SAtg8eQ</yt:channelId>
+		<yt:channelStatistics commentCount='94560' subscriberCount='22337368' totalUploadViewCount='1887149929' videoCount='126' viewCount='468821090'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-bGH_ADQCvVo/AAAAAAAAAAI/AAAAAAAAAAA/KLNIitU9_QU/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-bGH_ADQCvVo/AAAAAAAAAAI/AAAAAAAAAAA/KLNIitU9_QU/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>HolaSoyGerman.</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UC2xskkQVFEpLcGFnNSLQY0A</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>RihannaVEVO</title>
+		<summary/>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UC2xskkQVFEpLcGFnNSLQY0A?v=2'/>
+		<author>
+			<name>RihannaVEVO</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/RihannaVEVO</uri>
+			<yt:userId>2xskkQVFEpLcGFnNSLQY0A</yt:userId>
+		</author>
+		<yt:channelId>UC2xskkQVFEpLcGFnNSLQY0A</yt:channelId>
+		<yt:channelStatistics commentCount='78240' subscriberCount='16465353' totalUploadViewCount='6579154441' videoCount='91' viewCount='94638312'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-7iKcy1xQesU/AAAAAAAAAAI/AAAAAAAAAAA/AqQs92Q0Y8w/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-7iKcy1xQesU/AAAAAAAAAAI/AAAAAAAAAAA/AqQs92Q0Y8w/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>RihannaVEVO</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCbW18JZRgko_mOGm5er8Yzg</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>OneDirectionVEVO</title>
+		<summary/>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCbW18JZRgko_mOGm5er8Yzg?v=2'/>
+		<author>
+			<name>OneDirectionVEVO</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/OneDirectionVEVO</uri>
+			<yt:userId>bW18JZRgko_mOGm5er8Yzg</yt:userId>
+		</author>
+		<yt:channelId>UCbW18JZRgko_mOGm5er8Yzg</yt:channelId>
+		<yt:channelStatistics commentCount='45890' subscriberCount='15917261' totalUploadViewCount='4219498890' videoCount='160' viewCount='179996049'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-QRypZt--uYA/AAAAAAAAAAI/AAAAAAAAAAA/Y8-NLYzQzZc/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-QRypZt--uYA/AAAAAAAAAAI/AAAAAAAAAAA/Y8-NLYzQzZc/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>OneDirectionVEVO</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCSAUGyc_xA8uYzaIVG6MESQ</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>nigahiga</title>
+		<summary>Download the TEEHEE app here!
+iPhone: http://goo.gl/KXLz9j
+Android: http://goo.gl/RQZUKR
+
+Send me stuff here!
+PO BOX 232355 Las Vegas, NV 89105
+
+Film / Television / Personal Appearances / Media Contact
+Business Inquiries Only:
+Email: Media@HigaTV.com
+
+My 2nd Channel:
+http://www.youtube.com/HigaTV
+
+Also check out my Twitter:
+http://www.twitter.com/TheRealRyanHiga
+
+Facebook:
+http://www.facebook.com/higatv</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCSAUGyc_xA8uYzaIVG6MESQ?v=2'/>
+		<author>
+			<name>nigahiga</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/nigahiga</uri>
+			<yt:userId>SAUGyc_xA8uYzaIVG6MESQ</yt:userId>
+		</author>
+		<yt:channelId>UCSAUGyc_xA8uYzaIVG6MESQ</yt:channelId>
+		<yt:channelStatistics commentCount='73120' subscriberCount='14430107' totalUploadViewCount='2203164054' videoCount='234' viewCount='492644912'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-sHpcIUOw-YU/AAAAAAAAAAI/AAAAAAAAAAA/_F4e0B7Oq68/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-sHpcIUOw-YU/AAAAAAAAAAI/AAAAAAAAAAA/_F4e0B7Oq68/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>nigahiga</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UC20vb-R_px4CguHzzBPhoyQ</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>EminemVEVO</title>
+		<summary/>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UC20vb-R_px4CguHzzBPhoyQ?v=2'/>
+		<author>
+			<name>EminemVEVO</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/EminemVEVO</uri>
+			<yt:userId>20vb-R_px4CguHzzBPhoyQ</yt:userId>
+		</author>
+		<yt:channelId>UC20vb-R_px4CguHzzBPhoyQ</yt:channelId>
+		<yt:channelStatistics commentCount='112682' subscriberCount='15440850' totalUploadViewCount='4936821053' videoCount='55' viewCount='132460611'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-NzI5Ni67ppc/AAAAAAAAAAI/AAAAAAAAAAA/7wGQowTOWWg/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-NzI5Ni67ppc/AAAAAAAAAAI/AAAAAAAAAAA/7wGQowTOWWg/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>EminemVEVO</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCl8dMTqDrJQ0c8y23UBu4kQ</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>TV Shows</title>
+		<summary>YouTube TV Shows (United States).</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCl8dMTqDrJQ0c8y23UBu4kQ?v=2'/>
+		<author>
+			<name>TV Shows</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/YouTubeShowsUS</uri>
+			<yt:userId>l8dMTqDrJQ0c8y23UBu4kQ</yt:userId>
+		</author>
+		<yt:channelId>UCl8dMTqDrJQ0c8y23UBu4kQ</yt:channelId>
+		<yt:channelStatistics commentCount='0' subscriberCount='11595392' totalUploadViewCount='0' videoCount='0' viewCount='54057174'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-hFxEr8QHrvM/AAAAAAAAAAI/AAAAAAAAAAA/REjjL0X3gIs/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-hFxEr8QHrvM/AAAAAAAAAAI/AAAAAAAAAAA/REjjL0X3gIs/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>TV Shows</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCcMTZY1rFXO3Rj44D5VMyiw</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Machinima</title>
+		<summary>New episodes of ETC and Inside Gaming Monday - Friday, along with Podcast FTW on Thursday.</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCcMTZY1rFXO3Rj44D5VMyiw?v=2'/>
+		<author>
+			<name>Machinima</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/machinima</uri>
+			<yt:userId>cMTZY1rFXO3Rj44D5VMyiw</yt:userId>
+		</author>
+		<yt:channelId>UCcMTZY1rFXO3Rj44D5VMyiw</yt:channelId>
+		<yt:channelStatistics commentCount='1214886' subscriberCount='12457378' totalUploadViewCount='5264810578' videoCount='24683' viewCount='386208463'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-pymaumvxDsA/AAAAAAAAAAI/AAAAAAAAAAA/3Br0EbtsPDU/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-pymaumvxDsA/AAAAAAAAAAI/AAAAAAAAAAA/3Br0EbtsPDU/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Machinima</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCGt7X90Au6BV8rf49BiM6Dg</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Ray  William Johnson</title>
+		<summary>For business inquiries please contact Kaja Martin at kajamartin@momandpopempire.com.</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCGt7X90Au6BV8rf49BiM6Dg?v=2'/>
+		<author>
+			<name>Ray  William Johnson</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/RayWilliamJohnson</uri>
+			<yt:userId>Gt7X90Au6BV8rf49BiM6Dg</yt:userId>
+		</author>
+		<yt:channelId>UCGt7X90Au6BV8rf49BiM6Dg</yt:channelId>
+		<yt:channelStatistics commentCount='62316' subscriberCount='10800632' totalUploadViewCount='2912648150' videoCount='602' viewCount='627842708'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-70csHdsIFaA/AAAAAAAAAAI/AAAAAAAAAAA/GKYBS8_Thuc/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-70csHdsIFaA/AAAAAAAAAAI/AAAAAAAAAAA/GKYBS8_Thuc/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Ray  William Johnson</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UC-8Q-hLdECwQmaWNwXitYDw</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>KatyPerryVEVO</title>
+		<summary/>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UC-8Q-hLdECwQmaWNwXitYDw?v=2'/>
+		<author>
+			<name>KatyPerryVEVO</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/KatyPerryVEVO</uri>
+			<yt:userId>-8Q-hLdECwQmaWNwXitYDw</yt:userId>
+		</author>
+		<yt:channelId>UC-8Q-hLdECwQmaWNwXitYDw</yt:channelId>
+		<yt:channelStatistics commentCount='46310' subscriberCount='15950836' totalUploadViewCount='5556858714' videoCount='89' viewCount='107084438'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-rt3CHrjtobI/AAAAAAAAAAI/AAAAAAAAAAA/Bcmdk1F2-kY/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-rt3CHrjtobI/AAAAAAAAAAI/AAAAAAAAAAA/Bcmdk1F2-kY/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>KatyPerryVEVO</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCMu5gPmKp5av0QCAajKTMhw</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>ERB</title>
+		<summary>The Epic Rap Battles of History is a video series created by Nice Peter, epicLLOYD, Dave McCary, and Maker Studios.
+We have a website at: www.epicrapbattlesofhistory.com
+and Nice Peter has a website at: www.nicepeter.com</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCMu5gPmKp5av0QCAajKTMhw?v=2'/>
+		<author>
+			<name>ERB</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/ERB</uri>
+			<yt:userId>Mu5gPmKp5av0QCAajKTMhw</yt:userId>
+		</author>
+		<yt:channelId>UCMu5gPmKp5av0QCAajKTMhw</yt:channelId>
+		<yt:channelStatistics commentCount='67110' subscriberCount='12129856' totalUploadViewCount='1675805347' videoCount='49' viewCount='312001093'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-D2GJNJR41jM/AAAAAAAAAAI/AAAAAAAAAAA/9ast1AAjluw/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-D2GJNJR41jM/AAAAAAAAAAI/AAAAAAAAAAA/9ast1AAjluw/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>ERB</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCKlhpmbHGxBE6uw9B_uLeqQ</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Sky Does Minecraft</title>
+		<summary>Minecraft account name: SkythekidRS
+
+HELLO RECRUITS! WELCOME TO THE SKY ARMY! Sky here!
+and welcome to my channel filled with randomness, from mod reviews to let's plays to even animations and comedy skits this channel is the place to be for your Minecraft fix!
+
+Background made by BonkersBonker</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCKlhpmbHGxBE6uw9B_uLeqQ?v=2'/>
+		<author>
+			<name>Sky Does Minecraft</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/SkyDoesMinecraft</uri>
+			<yt:userId>KlhpmbHGxBE6uw9B_uLeqQ</yt:userId>
+		</author>
+		<yt:channelId>UCKlhpmbHGxBE6uw9B_uLeqQ</yt:channelId>
+		<yt:channelStatistics commentCount='93973' subscriberCount='11010708' totalUploadViewCount='2583513718' videoCount='1124' viewCount='516222023'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-dNukrTQa8eI/AAAAAAAAAAI/AAAAAAAAAAA/q0fNXIKFTw4/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-dNukrTQa8eI/AAAAAAAAAAI/AAAAAAAAAAA/q0fNXIKFTw4/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Sky Does Minecraft</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCHkj014U2CQ2Nv0UZeYpE_A</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>JustinBieberVEVO</title>
+		<summary/>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCHkj014U2CQ2Nv0UZeYpE_A?v=2'/>
+		<author>
+			<name>JustinBieberVEVO</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/JustinBieberVEVO</uri>
+			<yt:userId>Hkj014U2CQ2Nv0UZeYpE_A</yt:userId>
+		</author>
+		<yt:channelId>UCHkj014U2CQ2Nv0UZeYpE_A</yt:channelId>
+		<yt:channelStatistics commentCount='471628' subscriberCount='11508786' totalUploadViewCount='5676155405' videoCount='97' viewCount='148710344'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-VA1VJBph20Q/AAAAAAAAAAI/AAAAAAAAAAA/WJxOBPTsGt8/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-VA1VJBph20Q/AAAAAAAAAAI/AAAAAAAAAAA/WJxOBPTsGt8/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>JustinBieberVEVO</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCp0hYYBW6IMayGgR-WeoCvQ</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>TheEllenShow</title>
+		<summary>For 12 incredible, eventful and sometimes life-changing seasons, Ellen has been making audiences laugh all over the world with her signature brand of humor and her powerful message of kindness. There's nobody better at making you laugh and brightening your day. You never know what funny can do!</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCp0hYYBW6IMayGgR-WeoCvQ?v=2'/>
+		<author>
+			<name>TheEllenShow</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/TheEllenShow</uri>
+			<yt:userId>p0hYYBW6IMayGgR-WeoCvQ</yt:userId>
+		</author>
+		<yt:channelId>UCp0hYYBW6IMayGgR-WeoCvQ</yt:channelId>
+		<yt:channelStatistics commentCount='137061' subscriberCount='11890937' totalUploadViewCount='4288121725' videoCount='5928' viewCount='351946878'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-dDZUkj9sY4g/AAAAAAAAAAI/AAAAAAAAAAA/oy6dm2Uy8dc/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-dDZUkj9sY4g/AAAAAAAAAAI/AAAAAAAAAAA/oy6dm2Uy8dc/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>TheEllenShow</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCzVIrPfZBE-XkBISBybMBLA</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Werevertumorro</title>
+		<summary>Werevertumorro es un canal de comedia que inició en el 2007. Aquí encontrarás sketches, cortometrajes, videoblogs, series y contenido variado para hacerte sonreír. No olvides sucribirte para que los vídeos te lleguen antes que a nadie.</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCzVIrPfZBE-XkBISBybMBLA?v=2'/>
+		<author>
+			<name>Werevertumorro</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/werevertumorro</uri>
+			<yt:userId>zVIrPfZBE-XkBISBybMBLA</yt:userId>
+		</author>
+		<yt:channelId>UCzVIrPfZBE-XkBISBybMBLA</yt:channelId>
+		<yt:channelStatistics commentCount='453427' subscriberCount='9906643' totalUploadViewCount='1293057902' videoCount='649' viewCount='208563154'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-D2aeeu0BYT8/AAAAAAAAAAI/AAAAAAAAAAA/yDTq9O93BH8/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-D2aeeu0BYT8/AAAAAAAAAAI/AAAAAAAAAAA/yDTq9O93BH8/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Werevertumorro</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCEWHPFNilsT0IfQfutVzsag</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Porta dos Fundos</title>
+		<summary>Esse é o canal Porta dos Fundos. Lançamos vídeos originais, inéditos e exclusivos sempre às segundas, quintas e sábados às 11h. Inscrevam-se e assistam. :-)
+
+CONTATO: contato@portadosfundos.com.br</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCEWHPFNilsT0IfQfutVzsag?v=2'/>
+		<author>
+			<name>Porta dos Fundos</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/portadosfundos</uri>
+			<yt:userId>EWHPFNilsT0IfQfutVzsag</yt:userId>
+		</author>
+		<yt:channelId>UCEWHPFNilsT0IfQfutVzsag</yt:channelId>
+		<yt:channelStatistics commentCount='2527' subscriberCount='10075632' totalUploadViewCount='1670767842' videoCount='370' viewCount='320381078'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-xle954Zxs4E/AAAAAAAAAAI/AAAAAAAAAAA/geYaRfTQ0FY/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-xle954Zxs4E/AAAAAAAAAAI/AAAAAAAAAAA/geYaRfTQ0FY/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Porta dos Fundos</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UC0v-tlzsn0QZwJnkiaUSJVQ</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>TheFineBros</title>
+		<summary>Comedy and series from Fine Brothers Entertainment 
+
+SCHEDULE:
+Sundays - Teens React, Kids React 
+Tuesdays (sometimes) - Other Shows (Last Moments, Emo Dad)
+Thursdays - YouTubers React, Elders React
+Saturdays - Spoilers, Fine Time or Bonus YouTubers React
+
+More Weekly Shows on YouTube.com/REACT
+
+BUSINESS/PRESS CONTACT:
+BizDev at TheFineBros dot com
+
+REACT EMAILS:
+KidsReact at gmail dot com
+
+Fine Brothers Entertainment is a multi-faceted entertainment studio that has over 3 billion views online and over 15 million subscribers across our channels. Brothers Benny and Rafi Fine started by making feature films in high school that played in film festivals. Now we have a staff of over over 25, recently premiered a TV series on Nickelodeon, pilots for several other networks in development, feature films releasing in 2015, awards from the Daytime Emmys, Streamys, and Webbys, and have been featured in the biggest publications (Variety, NYT, Huff Po, Times, USAToday, 100s more).</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UC0v-tlzsn0QZwJnkiaUSJVQ?v=2'/>
+		<author>
+			<name>TheFineBros</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/TheFineBros</uri>
+			<yt:userId>0v-tlzsn0QZwJnkiaUSJVQ</yt:userId>
+		</author>
+		<yt:channelId>UC0v-tlzsn0QZwJnkiaUSJVQ</yt:channelId>
+		<yt:channelStatistics commentCount='19815' subscriberCount='12388350' totalUploadViewCount='3001267984' videoCount='806' viewCount='551054848'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-UsqednQXiuQ/AAAAAAAAAAI/AAAAAAAAAAA/HHn1lQdSH8I/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-UsqednQXiuQ/AAAAAAAAAAI/AAAAAAAAAAA/HHn1lQdSH8I/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>TheFineBros</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCANLZYMidaCbLQFWXBC95Jg</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>TaylorSwiftVEVO</title>
+		<summary/>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCANLZYMidaCbLQFWXBC95Jg?v=2'/>
+		<author>
+			<name>TaylorSwiftVEVO</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/TaylorSwiftVEVO</uri>
+			<yt:userId>ANLZYMidaCbLQFWXBC95Jg</yt:userId>
+		</author>
+		<yt:channelId>UCANLZYMidaCbLQFWXBC95Jg</yt:channelId>
+		<yt:channelStatistics commentCount='39451' subscriberCount='13688301' totalUploadViewCount='4938315953' videoCount='73' viewCount='144784235'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-PS6pgnf-7pY/AAAAAAAAAAI/AAAAAAAAAAA/QCBjV6iZUBI/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-PS6pgnf-7pY/AAAAAAAAAAI/AAAAAAAAAAA/QCBjV6iZUBI/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>TaylorSwiftVEVO</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UC_TVqp_SyG6j5hG-xVRy95A</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Skrillex</title>
+		<summary>27-year-old producer who likes to make all kinds of music</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UC_TVqp_SyG6j5hG-xVRy95A?v=2'/>
+		<author>
+			<name>Skrillex</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/TheOfficialSkrillex</uri>
+			<yt:userId>_TVqp_SyG6j5hG-xVRy95A</yt:userId>
+		</author>
+		<yt:channelId>UC_TVqp_SyG6j5hG-xVRy95A</yt:channelId>
+		<yt:channelStatistics commentCount='23892' subscriberCount='10304822' totalUploadViewCount='2179403036' videoCount='149' viewCount='123068394'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-vE_ouJCWMQk/AAAAAAAAAAI/AAAAAAAAAAA/6bkr0eMOQ7o/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-vE_ouJCWMQk/AAAAAAAAAAI/AAAAAAAAAAA/6bkr0eMOQ7o/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Skrillex</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UC1ieoHqKW-yYgDhLHIcx28w</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>TheSyndicateProject</title>
+		<summary>Im Syndicate, I love gaming &amp; enjoy life to the maximum! Come take a peek into what i do!
+
+I love traveling the world and thanks to each and every amazing Subscriber I am where I am today!
+
+Add me on Snapchat: ItsSyndicate</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UC1ieoHqKW-yYgDhLHIcx28w?v=2'/>
+		<author>
+			<name>TheSyndicateProject</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/TheSyndicateProject</uri>
+			<yt:userId>1ieoHqKW-yYgDhLHIcx28w</yt:userId>
+		</author>
+		<yt:channelId>UC1ieoHqKW-yYgDhLHIcx28w</yt:channelId>
+		<yt:channelStatistics commentCount='287372' subscriberCount='8827791' totalUploadViewCount='1639017107' videoCount='3004' viewCount='448852307'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-p5YBPFbcf5c/AAAAAAAAAAI/AAAAAAAAAAA/cIexIK8Xh78/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-p5YBPFbcf5c/AAAAAAAAAAI/AAAAAAAAAAA/cIexIK8Xh78/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>TheSyndicateProject</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCrDkAvwZum-UTjHmzDI2iIw</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>officialpsy</title>
+		<summary>PSY Official YouTube Channel</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCrDkAvwZum-UTjHmzDI2iIw?v=2'/>
+		<author>
+			<name>officialpsy</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/officialpsy</uri>
+			<yt:userId>rDkAvwZum-UTjHmzDI2iIw</yt:userId>
+		</author>
+		<yt:channelId>UCrDkAvwZum-UTjHmzDI2iIw</yt:channelId>
+		<yt:channelStatistics commentCount='9796' subscriberCount='7983656' totalUploadViewCount='4578919616' videoCount='66' viewCount='160635979'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-0Xgl841SU7Y/AAAAAAAAAAI/AAAAAAAAAAA/_bKTxRDm1kw/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-0Xgl841SU7Y/AAAAAAAAAAI/AAAAAAAAAAA/_bKTxRDm1kw/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>officialpsy</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCshoKvlZGZ20rVgazZp5vnQ</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>CaptainSparklez</title>
+		<summary>Let's plays, animations, music videos, and other video game related stuff. Stick around and enjoy the show!</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCshoKvlZGZ20rVgazZp5vnQ?v=2'/>
+		<author>
+			<name>CaptainSparklez</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/CaptainSparklez</uri>
+			<yt:userId>shoKvlZGZ20rVgazZp5vnQ</yt:userId>
+		</author>
+		<yt:channelId>UCshoKvlZGZ20rVgazZp5vnQ</yt:channelId>
+		<yt:channelStatistics commentCount='14941' subscriberCount='8618220' totalUploadViewCount='1738958746' videoCount='2354' viewCount='444110813'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-Ns-YNJxjh28/AAAAAAAAAAI/AAAAAAAAAAA/0Tf1gK8GBbE/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-Ns-YNJxjh28/AAAAAAAAAAI/AAAAAAAAAAA/0Tf1gK8GBbE/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>CaptainSparklez</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCDsO-0Yo5zpJk575nKXgMVA</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>RocketJump</title>
+		<summary>We make action videos. Formerly FreddieW and home of Video Game High School</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCDsO-0Yo5zpJk575nKXgMVA?v=2'/>
+		<author>
+			<name>RocketJump</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/freddiew</uri>
+			<yt:userId>DsO-0Yo5zpJk575nKXgMVA</yt:userId>
+		</author>
+		<yt:channelId>UCDsO-0Yo5zpJk575nKXgMVA</yt:channelId>
+		<yt:channelStatistics commentCount='128473' subscriberCount='7563246' totalUploadViewCount='1174799806' videoCount='232' viewCount='179345470'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-XqVmWd8zqUc/AAAAAAAAAAI/AAAAAAAAAAA/5nkBsZfPDys/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-XqVmWd8zqUc/AAAAAAAAAAI/AAAAAAAAAAA/5nkBsZfPDys/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>RocketJump</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UC6nSFpj9HTCZ5t-N3Rm3-HA</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Vsauce</title>
+		<summary>Our World is Amazing. 
+
+Questions? Ideas? Tweet me: http://www.twitter.com/tweetsauce
+
+Vsauce was created by Michael Stevens in the summer of 2010.
+
+Vsauce is...
+Michael Stevens: Producer/Host of Vsauce1
+Kevin Lieber: Producer/Host of Vsauce2
+Jake Roper: Producer/Host of Vsauce3
+Guy Larsen: Assistant Producer for Vsauce1
+Eric Langlay: VFX for Vsauce1/2/3
+Michael Watson: Production Assistant for Vsauce2/3
+Samantha Friedman: Production Coordinator for Vsauce1/2/3
+You: Thanks for watching!!!</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UC6nSFpj9HTCZ5t-N3Rm3-HA?v=2'/>
+		<author>
+			<name>Vsauce</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/Vsauce</uri>
+			<yt:userId>6nSFpj9HTCZ5t-N3Rm3-HA</yt:userId>
+		</author>
+		<yt:channelId>UC6nSFpj9HTCZ5t-N3Rm3-HA</yt:channelId>
+		<yt:channelStatistics commentCount='17918' subscriberCount='8834937' totalUploadViewCount='808135292' videoCount='311' viewCount='213434145'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-0YGU25OjtDM/AAAAAAAAAAI/AAAAAAAAAAA/Vhjw8Wwnu2w/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-0YGU25OjtDM/AAAAAAAAAAI/AAAAAAAAAAA/Vhjw8Wwnu2w/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Vsauce</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCH-_hzb2ILSCo9ftVSnrCIQ</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>YOGSCAST Lewis &amp; Simon</title>
+		<summary>Minecraft and multiplayer comedy gaming with a drunken dwarf and a handsome spaceman! Join us as we laugh our way through the best, the worst and the funniest indie games, Minecraft mods, mini-games and adventure maps.
+
+Yogscast official merchandise store: http://store.yogscast.com/
+Yogscast Games Store: http://games.yogscast.com
+Twitch Channel: http://twitch.tv/yogscast</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCH-_hzb2ILSCo9ftVSnrCIQ?v=2'/>
+		<author>
+			<name>YOGSCAST Lewis &amp; Simon</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/BlueXephos</uri>
+			<yt:userId>H-_hzb2ILSCo9ftVSnrCIQ</yt:userId>
+		</author>
+		<yt:channelId>UCH-_hzb2ILSCo9ftVSnrCIQ</yt:channelId>
+		<yt:channelStatistics commentCount='141318' subscriberCount='7288198' totalUploadViewCount='3050603141' videoCount='3189' viewCount='937317764'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-FMO2nSO2pP8/AAAAAAAAAAI/AAAAAAAAAAA/QZLWwqsqMIU/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-FMO2nSO2pP8/AAAAAAAAAAI/AAAAAAAAAAA/QZLWwqsqMIU/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>YOGSCAST Lewis &amp; Simon</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCoUM-UJ7rirJYP8CQ0EIaHA</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Bruno Mars</title>
+		<summary>Download the new single 'When I Was Your Man' now on iTunes and look for the new album Unorthodox Jukebox available now on Atlantic Records.
+
+Follow @brunomars on Twitter.</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCoUM-UJ7rirJYP8CQ0EIaHA?v=2'/>
+		<author>
+			<name>Bruno Mars</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/ElektraRecords</uri>
+			<yt:userId>oUM-UJ7rirJYP8CQ0EIaHA</yt:userId>
+		</author>
+		<yt:channelId>UCoUM-UJ7rirJYP8CQ0EIaHA</yt:channelId>
+		<yt:channelStatistics commentCount='9936' subscriberCount='8919935' totalUploadViewCount='3108088282' videoCount='39' viewCount='46040105'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-Ymp7v1ycCBA/AAAAAAAAAAI/AAAAAAAAAAA/-R7WfWSAkag/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-Ymp7v1ycCBA/AAAAAAAAAAI/AAAAAAAAAAA/-R7WfWSAkag/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Bruno Mars</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCLCmJiSbIoa_ZFiBOBDf6ZA</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>TobyGames</title>
+		<summary>Welcome to my TobyGames channel!
+Watch me fail to be good at video games like Happy Wheels, Minecraft, Slender, Amnesia, and more!
+Or check out my main channel Tobuscus &amp; my Lazy Vlog channel TobyTurner - and Subscribe!</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCLCmJiSbIoa_ZFiBOBDf6ZA?v=2'/>
+		<author>
+			<name>TobyGames</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/TobyGames</uri>
+			<yt:userId>LCmJiSbIoa_ZFiBOBDf6ZA</yt:userId>
+		</author>
+		<yt:channelId>UCLCmJiSbIoa_ZFiBOBDf6ZA</yt:channelId>
+		<yt:channelStatistics commentCount='29970' subscriberCount='6986633' totalUploadViewCount='1916754072' videoCount='4642' viewCount='202176743'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-04X7ZKmOgJk/AAAAAAAAAAI/AAAAAAAAAAA/PxfQvwyrf_U/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-04X7ZKmOgJk/AAAAAAAAAAI/AAAAAAAAAAA/PxfQvwyrf_U/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>TobyGames</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCYjk_zY-iYR8YNfJmuzd70A</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Epic Meal Time</title>
+		<summary>We make your dreams come true... and then we eat them.</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCYjk_zY-iYR8YNfJmuzd70A?v=2'/>
+		<author>
+			<name>Epic Meal Time</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/EpicMealTime</uri>
+			<yt:userId>Yjk_zY-iYR8YNfJmuzd70A</yt:userId>
+		</author>
+		<yt:channelId>UCYjk_zY-iYR8YNfJmuzd70A</yt:channelId>
+		<yt:channelStatistics commentCount='88530' subscriberCount='6780987' totalUploadViewCount='804826582' videoCount='386' viewCount='148647019'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-wsUurA2UA6Q/AAAAAAAAAAI/AAAAAAAAAAA/mYrc7qkwqbw/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-wsUurA2UA6Q/AAAAAAAAAAI/AAAAAAAAAAA/mYrc7qkwqbw/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Epic Meal Time</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCdI8evszfZvyAl2UVCypkTA</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>MileyCyrusVEVO</title>
+		<summary/>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCdI8evszfZvyAl2UVCypkTA?v=2'/>
+		<author>
+			<name>MileyCyrusVEVO</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/MileyCyrusVEVO</uri>
+			<yt:userId>dI8evszfZvyAl2UVCypkTA</yt:userId>
+		</author>
+		<yt:channelId>UCdI8evszfZvyAl2UVCypkTA</yt:channelId>
+		<yt:channelStatistics commentCount='26362' subscriberCount='7379051' totalUploadViewCount='2002623064' videoCount='33' viewCount='52785134'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-7q31n1lfPcw/AAAAAAAAAAI/AAAAAAAAAAA/6otE9_5kJWc/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-7q31n1lfPcw/AAAAAAAAAAI/AAAAAAAAAAA/6otE9_5kJWc/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>MileyCyrusVEVO</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCPDXXXJj9nax0fr0Wfc048g</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>CollegeHumor</title>
+		<summary>Original and funny videos from CollegeHumor.com, one of the most popular comedy sites on the web. Enjoy CH's award-winning sketches, animations, music videos and web series, delivered right to your (digital) doorstep--like the paper! Or drugs!</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCPDXXXJj9nax0fr0Wfc048g?v=2'/>
+		<author>
+			<name>CollegeHumor</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/collegehumor</uri>
+			<yt:userId>PDXXXJj9nax0fr0Wfc048g</yt:userId>
+		</author>
+		<yt:channelId>UCPDXXXJj9nax0fr0Wfc048g</yt:channelId>
+		<yt:channelStatistics commentCount='9172' subscriberCount='9632893' totalUploadViewCount='3625752211' videoCount='2549' viewCount='263068036'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-fI8rhpnPZ-E/AAAAAAAAAAI/AAAAAAAAAAA/wU6ooQc6ej0/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-fI8rhpnPZ-E/AAAAAAAAAAI/AAAAAAAAAAA/wU6ooQc6ej0/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>CollegeHumor</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCXazgXDIYyWH-yXLAkcrFxw</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>elrubiusOMG</title>
+		<summary>Bienvenidos a mi canal! Esto es una descripción. Y en la descripción se supone que tengo que poner algo sobre lo que trata mi canal...
+
+PUES BIEN. Mi canal es de Gayplays de Minecr... Wait. No. Mi canal es de Gayplays en general, pero nunca juego a nada predefinido. Algun día os encontrareis con juegos de terror, otro con juegos divertidos, otro juegos indie, etc. pero no solo subo Gayplays! Soy mas conocido por mis montajes "random" de GTA V, Skyrim (Que llevo eones sin subir), Garrys Mod, Juegos en 1 minuto y mucho mas!
+
+A veces también me da por trollear y hago montajes de los mejores momentos en Chatroulette, Trollefono, cámaras ocultas, etc. 
+
+A veces también me pongo tierno y os enseño mi lado mas sessy y personal en los Meet The Rubius y los Epic Vlogs.
+
+Mejor me callo y empiezas a descubrir tu de que va el canal. Por que esto de la descripción ya esta pareciendo mas bien la teletienda donde te intento vender la moto. COMPRA MI MOTO.
+
+Business: elrubius@divimove.com</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCXazgXDIYyWH-yXLAkcrFxw?v=2'/>
+		<author>
+			<name>elrubiusOMG</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/elrubiusOMG</uri>
+			<yt:userId>XazgXDIYyWH-yXLAkcrFxw</yt:userId>
+		</author>
+		<yt:channelId>UCXazgXDIYyWH-yXLAkcrFxw</yt:channelId>
+		<yt:channelStatistics commentCount='59462' subscriberCount='11589171' totalUploadViewCount='1944209531' videoCount='483' viewCount='881687391'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-ofBkFJ9NAS4/AAAAAAAAAAI/AAAAAAAAAAA/wi8QhFHW3s8/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-ofBkFJ9NAS4/AAAAAAAAAAI/AAAAAAAAAAA/wi8QhFHW3s8/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>elrubiusOMG</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCuYx81nzzz4OFQrhbKDzTng</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Michelle Phan</title>
+		<summary>Just another old soul dreamer with childlike faith. Teaching and inspiring everyone to become their own best makeup artist :) So sit back, enjoy and let's play with makeup!
+
+I live, I love, I teach, but most importantly I learn.
+
+"Live as if you were to die tomorrow. Learn as if you were to live forever." - Gandhi
+
+For media inquiries, please contact KFD Public Relations: kelly@kfdpr.com</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCuYx81nzzz4OFQrhbKDzTng?v=2'/>
+		<author>
+			<name>Michelle Phan</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/MichellePhan</uri>
+			<yt:userId>uYx81nzzz4OFQrhbKDzTng</yt:userId>
+		</author>
+		<yt:channelId>UCuYx81nzzz4OFQrhbKDzTng</yt:channelId>
+		<yt:channelStatistics commentCount='156921' subscriberCount='7722501' totalUploadViewCount='1120997041' videoCount='368' viewCount='268809660'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-tXL4ywC60FY/AAAAAAAAAAI/AAAAAAAAAAA/0YRMBFvAsCo/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-tXL4ywC60FY/AAAAAAAAAAI/AAAAAAAAAAA/0YRMBFvAsCo/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Michelle Phan</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UC2pmfLm7iq6Ov1UwYrWYkZA</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Vevo</title>
+		<summary/>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UC2pmfLm7iq6Ov1UwYrWYkZA?v=2'/>
+		<author>
+			<name>Vevo</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/VEVO</uri>
+			<yt:userId>2pmfLm7iq6Ov1UwYrWYkZA</yt:userId>
+		</author>
+		<yt:channelId>UC2pmfLm7iq6Ov1UwYrWYkZA</yt:channelId>
+		<yt:channelStatistics commentCount='51601' subscriberCount='9562551' totalUploadViewCount='199394000' videoCount='624' viewCount='713552285'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-hmxOepMtptM/AAAAAAAAAAI/AAAAAAAAAAA/nzePQZGAM2Y/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-hmxOepMtptM/AAAAAAAAAAI/AAAAAAAAAAA/nzePQZGAM2Y/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Vevo</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCCHcEUksSVKsRDH86j77Ntg</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>thelonelyisland</title>
+		<summary>The Lonely Island are Andy Samberg, Akiva Schaffer and Jorma Taccone. They've been making videos together since September of 2000. They met in Junior High. Nice, right?</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCCHcEUksSVKsRDH86j77Ntg?v=2'/>
+		<author>
+			<name>thelonelyisland</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/thelonelyisland</uri>
+			<yt:userId>CHcEUksSVKsRDH86j77Ntg</yt:userId>
+		</author>
+		<yt:channelId>UCCHcEUksSVKsRDH86j77Ntg</yt:channelId>
+		<yt:channelStatistics commentCount='44723' subscriberCount='6092590' totalUploadViewCount='1606460675' videoCount='104' viewCount='92242026'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-EDxuJKCSU2o/AAAAAAAAAAI/AAAAAAAAAAA/tVMck8S3Z-s/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-EDxuJKCSU2o/AAAAAAAAAAI/AAAAAAAAAAA/tVMck8S3Z-s/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>thelonelyisland</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCN9wHzrHRdKVzCSeV-5RuzA</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Shane Dawson TV</title>
+		<summary>Send letters to: 
+3727 W. Magnolia Blvd #712 
+Burbank, CA 91505
+
+*Branding, Media, &amp; General Business Inquiries: 
+ShaneDawsonTVBiz@gmail.com
+
+*Film &amp; Television Agent:
+UTA</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCN9wHzrHRdKVzCSeV-5RuzA?v=2'/>
+		<author>
+			<name>Shane Dawson TV</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/ShaneDawsonTV</uri>
+			<yt:userId>N9wHzrHRdKVzCSeV-5RuzA</yt:userId>
+		</author>
+		<yt:channelId>UCN9wHzrHRdKVzCSeV-5RuzA</yt:channelId>
+		<yt:channelStatistics commentCount='225151' subscriberCount='6591950' totalUploadViewCount='1132859934' videoCount='268' viewCount='219818364'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-_hLOuXOzYjo/AAAAAAAAAAI/AAAAAAAAAAA/v_Jxw0Hb3g0/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-_hLOuXOzYjo/AAAAAAAAAAI/AAAAAAAAAAA/v_Jxw0Hb3g0/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Shane Dawson TV</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCKqH_9mk1waLgBiL2vT5b9g</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>VanossGaming</title>
+		<summary>My name is Vanoss and I make funny gaming videos. I have a ton fun gaming with my friends and I share the best moments with you :]
+
+For any business, advertising, or press related enquiries you can contact me at: VanossGamingBusiness@gmail.com</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCKqH_9mk1waLgBiL2vT5b9g?v=2'/>
+		<author>
+			<name>VanossGaming</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/VanossGaming</uri>
+			<yt:userId>KqH_9mk1waLgBiL2vT5b9g</yt:userId>
+		</author>
+		<yt:channelId>UCKqH_9mk1waLgBiL2vT5b9g</yt:channelId>
+		<yt:channelStatistics commentCount='5066' subscriberCount='12535793' totalUploadViewCount='2216350178' videoCount='279' viewCount='858486075'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-CCKHNHdlWLI/AAAAAAAAAAI/AAAAAAAAAAA/5ccNwzQGPVI/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-CCKHNHdlWLI/AAAAAAAAAAI/AAAAAAAAAAA/5ccNwzQGPVI/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>VanossGaming</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCVJK2AT3ea5RTXNRjX_kz8A</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>Tobuscus</title>
+		<summary>Welcome to my Tobuscus channel, Audience!
+
+Check out Tobuscus Adventures - it's my favorite.  Also check out my songs: I Can Swing My Sword, Safety Torch, Dramatic Song, Nugget In A Biscuit, and The Mini-Minotaur Song!
+
+Also check out my gaming channel TobyGames (especially the Happy Wheels, Minecraft, and Slender series!), as well as my daily Lazy Vlog channel TobyTurner!</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCVJK2AT3ea5RTXNRjX_kz8A?v=2'/>
+		<author>
+			<name>Tobuscus</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/Tobuscus</uri>
+			<yt:userId>VJK2AT3ea5RTXNRjX_kz8A</yt:userId>
+		</author>
+		<yt:channelId>UCVJK2AT3ea5RTXNRjX_kz8A</yt:channelId>
+		<yt:channelStatistics commentCount='77354' subscriberCount='6255697' totalUploadViewCount='1149026254' videoCount='435' viewCount='135231406'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-pZvYC0-wW_Y/AAAAAAAAAAI/AAAAAAAAAAA/VFBvPl33CNU/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-pZvYC0-wW_Y/AAAAAAAAAAI/AAAAAAAAAAA/VFBvPl33CNU/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>Tobuscus</media:title>
+		</media:group>
+	</entry>
+	<entry>
+		<id>tag:youtube.com,2008:standardchannel:UCEe076nFuVobN0bAsXK7ICw</id>
+		<updated>2015-05-27T05:27:17.076Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#channelstandard'/>
+		<title>speedyw03</title>
+		<summary>Gaming videos that will make you laugh.
+
+5% Off Astro Gaming Headsets: http://bit.ly/10kbOC5</summary>
+		<link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/channelstandardfeeds/most_subscribed/c/UCEe076nFuVobN0bAsXK7ICw?v=2'/>
+		<author>
+			<name>speedyw03</name>
+			<uri>http://gdata.youtube.com/feeds/api/users/speedyw03</uri>
+			<yt:userId>Ee076nFuVobN0bAsXK7ICw</yt:userId>
+		</author>
+		<yt:channelId>UCEe076nFuVobN0bAsXK7ICw</yt:channelId>
+		<yt:channelStatistics commentCount='13677' subscriberCount='6497881' totalUploadViewCount='1199439989' videoCount='1435' viewCount='270425314'/>
+		<media:group>
+			<media:thumbnail url='http://yt3.ggpht.com/-Y8O57v4A1sA/AAAAAAAAAAI/AAAAAAAAAAA/kUlpzYXT-1Y/s88-c-k-no/photo.jpg' yt:name='default'/>
+			<media:thumbnail url='http://yt3.ggpht.com/-Y8O57v4A1sA/AAAAAAAAAAI/AAAAAAAAAAA/kUlpzYXT-1Y/s240-c-k-no/photo.jpg' yt:name='hqdefault'/>
+			<media:title>speedyw03</media:title>
+		</media:group>
+	</entry>
+</feed>
