@@ -4506,4 +4506,24 @@ app.get("/leanback_ajax", (req, res) => {
                         "user_id": r.author_url.split("channel/")[1],
                         "time_created": r.upload,
                         "description": r.description
+                    })
+                } else if(r.type == "metadata") {
+                    resultCount = r.resultCount;
+                }
+            })
+
+            res.send({
+                "total": resultCount,
+                "videos": formattedResults
+            })
+        }), yt2009_utils.get_used_token(req), false)
+        return;
+    }
+    if(req.query.action_featured) {
+        let r = fs.readFileSync("../assets/site-assets/leanback_ajax.json").toString()
+        res.send(r)
+        return;
+    }
+    res.status(200).send("")
+})
                 
